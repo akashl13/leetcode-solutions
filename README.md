@@ -5,6 +5,7 @@
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/akashl13/leetcode-solutions/tree/master/0005-longest-palindromic-substring) |
+| [0015-3sum](https://github.com/akashl13/leetcode-solutions/tree/master/0015-3sum) |
 | [1861-rotating-the-box](https://github.com/akashl13/leetcode-solutions/tree/master/1861-rotating-the-box) |
 ## String
 |  |
@@ -45,6 +46,7 @@
 ## Array
 |  |
 | ------- |
+| [0015-3sum](https://github.com/akashl13/leetcode-solutions/tree/master/0015-3sum) |
 | [0048-rotate-image](https://github.com/akashl13/leetcode-solutions/tree/master/0048-rotate-image) |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/akashl13/leetcode-solutions/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
 | [1861-rotating-the-box](https://github.com/akashl13/leetcode-solutions/tree/master/1861-rotating-the-box) |
@@ -76,5 +78,6 @@
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/akashl13/leetcode-solutions/tree/master/0015-3sum) |
 | [1096-brace-expansion-ii](https://github.com/akashl13/leetcode-solutions/tree/master/1096-brace-expansion-ii) |
 <!---LeetCode Topics End-->
