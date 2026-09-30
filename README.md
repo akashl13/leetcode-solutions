@@ -11,6 +11,7 @@
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/akashl13/leetcode-solutions/tree/master/0005-longest-palindromic-substring) |
 | [0006-zigzag-conversion](https://github.com/akashl13/leetcode-solutions/tree/master/0006-zigzag-conversion) |
+| [0012-integer-to-roman](https://github.com/akashl13/leetcode-solutions/tree/master/0012-integer-to-roman) |
 | [1096-brace-expansion-ii](https://github.com/akashl13/leetcode-solutions/tree/master/1096-brace-expansion-ii) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/akashl13/leetcode-solutions/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1410-html-entity-parser](https://github.com/akashl13/leetcode-solutions/tree/master/1410-html-entity-parser) |
@@ -29,10 +30,12 @@
 |  |
 | ------- |
 | [0007-reverse-integer](https://github.com/akashl13/leetcode-solutions/tree/master/0007-reverse-integer) |
+| [0012-integer-to-roman](https://github.com/akashl13/leetcode-solutions/tree/master/0012-integer-to-roman) |
 | [0048-rotate-image](https://github.com/akashl13/leetcode-solutions/tree/master/0048-rotate-image) |
 ## Hash Table
 |  |
 | ------- |
+| [0012-integer-to-roman](https://github.com/akashl13/leetcode-solutions/tree/master/0012-integer-to-roman) |
 | [1096-brace-expansion-ii](https://github.com/akashl13/leetcode-solutions/tree/master/1096-brace-expansion-ii) |
 | [1410-html-entity-parser](https://github.com/akashl13/leetcode-solutions/tree/master/1410-html-entity-parser) |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/akashl13/leetcode-solutions/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
