@@ -5,6 +5,7 @@
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/akashl13/leetcode-solutions/tree/master/0005-longest-palindromic-substring) |
+| [1861-rotating-the-box](https://github.com/akashl13/leetcode-solutions/tree/master/1861-rotating-the-box) |
 ## String
 |  |
 | ------- |
@@ -32,8 +33,10 @@
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/akashl13/leetcode-solutions/tree/master/0048-rotate-image) |
+| [1861-rotating-the-box](https://github.com/akashl13/leetcode-solutions/tree/master/1861-rotating-the-box) |
 ## Matrix
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/akashl13/leetcode-solutions/tree/master/0048-rotate-image) |
+| [1861-rotating-the-box](https://github.com/akashl13/leetcode-solutions/tree/master/1861-rotating-the-box) |
 <!---LeetCode Topics End-->
