@@ -10,6 +10,7 @@
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/akashl13/leetcode-solutions/tree/master/0005-longest-palindromic-substring) |
 | [0006-zigzag-conversion](https://github.com/akashl13/leetcode-solutions/tree/master/0006-zigzag-conversion) |
+| [1410-html-entity-parser](https://github.com/akashl13/leetcode-solutions/tree/master/1410-html-entity-parser) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -22,4 +23,8 @@
 |  |
 | ------- |
 | [0007-reverse-integer](https://github.com/akashl13/leetcode-solutions/tree/master/0007-reverse-integer) |
+## Hash Table
+|  |
+| ------- |
+| [1410-html-entity-parser](https://github.com/akashl13/leetcode-solutions/tree/master/1410-html-entity-parser) |
 <!---LeetCode Topics End-->
