@@ -23,8 +23,17 @@
 |  |
 | ------- |
 | [0007-reverse-integer](https://github.com/akashl13/leetcode-solutions/tree/master/0007-reverse-integer) |
+| [0048-rotate-image](https://github.com/akashl13/leetcode-solutions/tree/master/0048-rotate-image) |
 ## Hash Table
 |  |
 | ------- |
 | [1410-html-entity-parser](https://github.com/akashl13/leetcode-solutions/tree/master/1410-html-entity-parser) |
+## Array
+|  |
+| ------- |
+| [0048-rotate-image](https://github.com/akashl13/leetcode-solutions/tree/master/0048-rotate-image) |
+## Matrix
+|  |
+| ------- |
+| [0048-rotate-image](https://github.com/akashl13/leetcode-solutions/tree/master/0048-rotate-image) |
 <!---LeetCode Topics End-->
