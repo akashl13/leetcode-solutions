@@ -20,6 +20,7 @@
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/akashl13/leetcode-solutions/tree/master/0005-longest-palindromic-substring) |
+| [3660-jump-game-ix](https://github.com/akashl13/leetcode-solutions/tree/master/3660-jump-game-ix) |
 ## Manacher
 |  |
 | ------- |
@@ -41,6 +42,7 @@
 | [0048-rotate-image](https://github.com/akashl13/leetcode-solutions/tree/master/0048-rotate-image) |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/akashl13/leetcode-solutions/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
 | [1861-rotating-the-box](https://github.com/akashl13/leetcode-solutions/tree/master/1861-rotating-the-box) |
+| [3660-jump-game-ix](https://github.com/akashl13/leetcode-solutions/tree/master/3660-jump-game-ix) |
 ## Matrix
 |  |
 | ------- |
