@@ -14,6 +14,7 @@
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/akashl13/leetcode-solutions/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1410-html-entity-parser](https://github.com/akashl13/leetcode-solutions/tree/master/1410-html-entity-parser) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/akashl13/leetcode-solutions/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
+| [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/akashl13/leetcode-solutions/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -31,10 +32,12 @@
 |  |
 | ------- |
 | [1410-html-entity-parser](https://github.com/akashl13/leetcode-solutions/tree/master/1410-html-entity-parser) |
+| [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/akashl13/leetcode-solutions/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
 ## Array
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/akashl13/leetcode-solutions/tree/master/0048-rotate-image) |
+| [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/akashl13/leetcode-solutions/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
 | [1861-rotating-the-box](https://github.com/akashl13/leetcode-solutions/tree/master/1861-rotating-the-box) |
 ## Matrix
 |  |
