@@ -9,6 +9,7 @@
 | [0016-3sum-closest](https://github.com/akashl13/leetcode-solutions/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/akashl13/leetcode-solutions/tree/master/0018-4sum) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/akashl13/leetcode-solutions/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0061-rotate-list](https://github.com/akashl13/leetcode-solutions/tree/master/0061-rotate-list) |
 | [1861-rotating-the-box](https://github.com/akashl13/leetcode-solutions/tree/master/1861-rotating-the-box) |
 ## String
 |  |
@@ -94,4 +95,5 @@
 |  |
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/akashl13/leetcode-solutions/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0061-rotate-list](https://github.com/akashl13/leetcode-solutions/tree/master/0061-rotate-list) |
 <!---LeetCode Topics End-->
