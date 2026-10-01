@@ -40,6 +40,7 @@
 | [0012-integer-to-roman](https://github.com/akashl13/leetcode-solutions/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/akashl13/leetcode-solutions/tree/master/0013-roman-to-integer) |
 | [0048-rotate-image](https://github.com/akashl13/leetcode-solutions/tree/master/0048-rotate-image) |
+| [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/akashl13/leetcode-solutions/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 ## Hash Table
 |  |
 | ------- |
@@ -48,6 +49,7 @@
 | [1096-brace-expansion-ii](https://github.com/akashl13/leetcode-solutions/tree/master/1096-brace-expansion-ii) |
 | [1410-html-entity-parser](https://github.com/akashl13/leetcode-solutions/tree/master/1410-html-entity-parser) |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/akashl13/leetcode-solutions/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
+| [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/akashl13/leetcode-solutions/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 ## Array
 |  |
 | ------- |
@@ -57,6 +59,7 @@
 | [0048-rotate-image](https://github.com/akashl13/leetcode-solutions/tree/master/0048-rotate-image) |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/akashl13/leetcode-solutions/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
 | [1861-rotating-the-box](https://github.com/akashl13/leetcode-solutions/tree/master/1861-rotating-the-box) |
+| [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/akashl13/leetcode-solutions/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 | [3660-jump-game-ix](https://github.com/akashl13/leetcode-solutions/tree/master/3660-jump-game-ix) |
 ## Matrix
 |  |
@@ -84,6 +87,7 @@
 |  |
 | ------- |
 | [1096-brace-expansion-ii](https://github.com/akashl13/leetcode-solutions/tree/master/1096-brace-expansion-ii) |
+| [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/akashl13/leetcode-solutions/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 ## Sorting
 |  |
 | ------- |
@@ -96,4 +100,8 @@
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/akashl13/leetcode-solutions/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0061-rotate-list](https://github.com/akashl13/leetcode-solutions/tree/master/0061-rotate-list) |
+## Number Theory
+|  |
+| ------- |
+| [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/akashl13/leetcode-solutions/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 <!---LeetCode Topics End-->
