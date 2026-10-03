@@ -187,4 +187,8 @@
 |  |
 | ------- |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/akashl13/leetcode-solutions/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
+## Database
+|  |
+| ------- |
+| [0175-combine-two-tables](https://github.com/akashl13/leetcode-solutions/tree/master/0175-combine-two-tables) |
 <!---LeetCode Topics End-->
