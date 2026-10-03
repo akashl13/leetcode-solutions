@@ -3,32 +3,28 @@ public:
     vector<int> maxValue(vector<int>& nums) {
         int n = nums.size();
 
-        vector<int> suffixMin(n);
+        vector<int> ans(n);
+        vector<int> preMax(n);
 
-        suffixMin[n - 1] = nums[n - 1];
+        // Maximum value from 0 to i
+        preMax[0] = nums[0];
 
-        for (int i = n - 2; i >= 0; i--) {
-            suffixMin[i] = min(nums[i], suffixMin[i + 1]);
+        for (int i = 1; i < n; i++) {
+            preMax[i] = max(preMax[i - 1], nums[i]);
         }
 
-        vector<int> ans(n);
+        int sufMin = INT_MAX;
 
-        int prefixMax = INT_MIN;
-        int blockMax = INT_MIN;
-        int start = 0;
+        // Process from right to left
+        for (int i = n - 1; i >= 0; i--) {
 
-        for (int i = 0; i < n; i++) {
-            prefixMax = max(prefixMax, nums[i]);
-            blockMax = max(blockMax, nums[i]);
-
-            if (i == n - 1 || prefixMax <= suffixMin[i + 1]) {
-                for (int j = start; j <= i; j++) {
-                    ans[j] = blockMax;
-                }
-
-                start = i + 1;
-                blockMax = INT_MIN;
+            if (preMax[i] > sufMin) {
+                ans[i] = ans[i + 1];
+            } else {
+                ans[i] = preMax[i];
             }
+
+            sufMin = min(sufMin, nums[i]);
         }
 
         return ans;
