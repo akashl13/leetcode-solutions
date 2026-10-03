@@ -8,7 +8,7 @@ public:
 
         int maxVal = *max_element(nums.begin(), nums.end());
 
-        // Smallest Prime Factor
+        // Smallest Prime Factor (SPF)
         vector<int> spf(maxVal + 1);
 
         for (int i = 0; i <= maxVal; i++)
@@ -23,8 +23,8 @@ public:
             }
         }
 
-        // primeIndices[p] = indices whose nums[index] is divisible by p
-        vector<vector<int>> primeIndices(maxVal + 1);
+        // prime -> indices whose value is divisible by prime
+        vector<vector<int>> positions(maxVal + 1);
 
         for (int i = 0; i < n; i++) {
             int x = nums[i];
@@ -32,9 +32,9 @@ public:
             while (x > 1) {
                 int p = spf[x];
 
-                primeIndices[p].push_back(i);
+                positions[p].push_back(i);
 
-                // Skip duplicate prime factors
+                // Remove all occurrences of this prime
                 while (x % p == 0)
                     x /= p;
             }
@@ -42,43 +42,44 @@ public:
 
         // BFS
         vector<int> dist(n, -1);
-        vector<bool> usedPrime(maxVal + 1, false);
-
         queue<int> q;
-        q.push(0);
+
         dist[0] = 0;
+        q.push(0);
+
+        // A prime's teleport list only needs to be processed once
+        vector<bool> usedPrime(maxVal + 1, false);
 
         while (!q.empty()) {
             int i = q.front();
             q.pop();
 
-            int d = dist[i];
-
             if (i == n - 1)
-                return d;
+                return dist[i];
 
             // Move left
             if (i - 1 >= 0 && dist[i - 1] == -1) {
-                dist[i - 1] = d + 1;
+                dist[i - 1] = dist[i] + 1;
                 q.push(i - 1);
             }
 
             // Move right
             if (i + 1 < n && dist[i + 1] == -1) {
-                dist[i + 1] = d + 1;
+                dist[i + 1] = dist[i] + 1;
                 q.push(i + 1);
             }
 
             // Prime teleportation
             int x = nums[i];
 
-            // Teleportation is available only if nums[i] itself is prime
+            // nums[i] is prime if its SPF is itself
             if (x >= 2 && spf[x] == x && !usedPrime[x]) {
+
                 usedPrime[x] = true;
 
-                for (int j : primeIndices[x]) {
+                for (int j : positions[x]) {
                     if (dist[j] == -1) {
-                        dist[j] = d + 1;
+                        dist[j] = dist[i] + 1;
                         q.push(j);
                     }
                 }
