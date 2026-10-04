@@ -63,6 +63,7 @@
 | [0030-substring-with-concatenation-of-all-words](https://github.com/akashl13/leetcode-solutions/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [1096-brace-expansion-ii](https://github.com/akashl13/leetcode-solutions/tree/master/1096-brace-expansion-ii) |
 | [1410-html-entity-parser](https://github.com/akashl13/leetcode-solutions/tree/master/1410-html-entity-parser) |
+| [1674-minimum-moves-to-make-array-complementary](https://github.com/akashl13/leetcode-solutions/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/akashl13/leetcode-solutions/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/akashl13/leetcode-solutions/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 ## Array
@@ -76,6 +77,7 @@
 | [0031-next-permutation](https://github.com/akashl13/leetcode-solutions/tree/master/0031-next-permutation) |
 | [0048-rotate-image](https://github.com/akashl13/leetcode-solutions/tree/master/0048-rotate-image) |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/akashl13/leetcode-solutions/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
+| [1674-minimum-moves-to-make-array-complementary](https://github.com/akashl13/leetcode-solutions/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/akashl13/leetcode-solutions/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
 | [1861-rotating-the-box](https://github.com/akashl13/leetcode-solutions/tree/master/1861-rotating-the-box) |
 | [1914-cyclically-rotating-a-grid](https://github.com/akashl13/leetcode-solutions/tree/master/1914-cyclically-rotating-a-grid) |
@@ -197,4 +199,8 @@
 | ------- |
 | [0175-combine-two-tables](https://github.com/akashl13/leetcode-solutions/tree/master/0175-combine-two-tables) |
 | [0176-second-highest-salary](https://github.com/akashl13/leetcode-solutions/tree/master/0176-second-highest-salary) |
+## Prefix Sum
+|  |
+| ------- |
+| [1674-minimum-moves-to-make-array-complementary](https://github.com/akashl13/leetcode-solutions/tree/master/1674-minimum-moves-to-make-array-complementary) |
 <!---LeetCode Topics End-->
