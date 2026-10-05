@@ -62,6 +62,7 @@
 | [0013-roman-to-integer](https://github.com/akashl13/leetcode-solutions/tree/master/0013-roman-to-integer) |
 | [0030-substring-with-concatenation-of-all-words](https://github.com/akashl13/leetcode-solutions/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [0036-valid-sudoku](https://github.com/akashl13/leetcode-solutions/tree/master/0036-valid-sudoku) |
+| [0037-sudoku-solver](https://github.com/akashl13/leetcode-solutions/tree/master/0037-sudoku-solver) |
 | [1096-brace-expansion-ii](https://github.com/akashl13/leetcode-solutions/tree/master/1096-brace-expansion-ii) |
 | [1410-html-entity-parser](https://github.com/akashl13/leetcode-solutions/tree/master/1410-html-entity-parser) |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/akashl13/leetcode-solutions/tree/master/1674-minimum-moves-to-make-array-complementary) |
@@ -78,6 +79,7 @@
 | [0027-remove-element](https://github.com/akashl13/leetcode-solutions/tree/master/0027-remove-element) |
 | [0031-next-permutation](https://github.com/akashl13/leetcode-solutions/tree/master/0031-next-permutation) |
 | [0036-valid-sudoku](https://github.com/akashl13/leetcode-solutions/tree/master/0036-valid-sudoku) |
+| [0037-sudoku-solver](https://github.com/akashl13/leetcode-solutions/tree/master/0037-sudoku-solver) |
 | [0048-rotate-image](https://github.com/akashl13/leetcode-solutions/tree/master/0048-rotate-image) |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/akashl13/leetcode-solutions/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/akashl13/leetcode-solutions/tree/master/1674-minimum-moves-to-make-array-complementary) |
@@ -93,6 +95,7 @@
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/akashl13/leetcode-solutions/tree/master/0036-valid-sudoku) |
+| [0037-sudoku-solver](https://github.com/akashl13/leetcode-solutions/tree/master/0037-sudoku-solver) |
 | [0048-rotate-image](https://github.com/akashl13/leetcode-solutions/tree/master/0048-rotate-image) |
 | [1861-rotating-the-box](https://github.com/akashl13/leetcode-solutions/tree/master/1861-rotating-the-box) |
 | [1914-cyclically-rotating-a-grid](https://github.com/akashl13/leetcode-solutions/tree/master/1914-cyclically-rotating-a-grid) |
@@ -118,6 +121,7 @@
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/akashl13/leetcode-solutions/tree/master/0022-generate-parentheses) |
+| [0037-sudoku-solver](https://github.com/akashl13/leetcode-solutions/tree/master/0037-sudoku-solver) |
 | [1096-brace-expansion-ii](https://github.com/akashl13/leetcode-solutions/tree/master/1096-brace-expansion-ii) |
 ## Breadth-First Search
 |  |
@@ -209,4 +213,12 @@
 |  |
 | ------- |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/akashl13/leetcode-solutions/tree/master/1674-minimum-moves-to-make-array-complementary) |
+## Algorithm X
+|  |
+| ------- |
+| [0037-sudoku-solver](https://github.com/akashl13/leetcode-solutions/tree/master/0037-sudoku-solver) |
+## Dancing Links
+|  |
+| ------- |
+| [0037-sudoku-solver](https://github.com/akashl13/leetcode-solutions/tree/master/0037-sudoku-solver) |
 <!---LeetCode Topics End-->
