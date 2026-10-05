@@ -27,6 +27,7 @@
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/akashl13/leetcode-solutions/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0030-substring-with-concatenation-of-all-words](https://github.com/akashl13/leetcode-solutions/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [0032-longest-valid-parentheses](https://github.com/akashl13/leetcode-solutions/tree/master/0032-longest-valid-parentheses) |
+| [0038-count-and-say](https://github.com/akashl13/leetcode-solutions/tree/master/0038-count-and-say) |
 | [0678-valid-parenthesis-string](https://github.com/akashl13/leetcode-solutions/tree/master/0678-valid-parenthesis-string) |
 | [1096-brace-expansion-ii](https://github.com/akashl13/leetcode-solutions/tree/master/1096-brace-expansion-ii) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/akashl13/leetcode-solutions/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
