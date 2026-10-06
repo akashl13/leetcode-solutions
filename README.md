@@ -29,6 +29,7 @@
 | [0030-substring-with-concatenation-of-all-words](https://github.com/akashl13/leetcode-solutions/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [0032-longest-valid-parentheses](https://github.com/akashl13/leetcode-solutions/tree/master/0032-longest-valid-parentheses) |
 | [0038-count-and-say](https://github.com/akashl13/leetcode-solutions/tree/master/0038-count-and-say) |
+| [0043-multiply-strings](https://github.com/akashl13/leetcode-solutions/tree/master/0043-multiply-strings) |
 | [0678-valid-parenthesis-string](https://github.com/akashl13/leetcode-solutions/tree/master/0678-valid-parenthesis-string) |
 | [0856-score-of-parentheses](https://github.com/akashl13/leetcode-solutions/tree/master/0856-score-of-parentheses) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/akashl13/leetcode-solutions/tree/master/0921-minimum-add-to-make-parentheses-valid) |
@@ -58,6 +59,7 @@
 | [0012-integer-to-roman](https://github.com/akashl13/leetcode-solutions/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/akashl13/leetcode-solutions/tree/master/0013-roman-to-integer) |
 | [0029-divide-two-integers](https://github.com/akashl13/leetcode-solutions/tree/master/0029-divide-two-integers) |
+| [0043-multiply-strings](https://github.com/akashl13/leetcode-solutions/tree/master/0043-multiply-strings) |
 | [0048-rotate-image](https://github.com/akashl13/leetcode-solutions/tree/master/0048-rotate-image) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/akashl13/leetcode-solutions/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 ## Hash Table
@@ -221,6 +223,7 @@
 ## Simulation
 |  |
 | ------- |
+| [0043-multiply-strings](https://github.com/akashl13/leetcode-solutions/tree/master/0043-multiply-strings) |
 | [1914-cyclically-rotating-a-grid](https://github.com/akashl13/leetcode-solutions/tree/master/1914-cyclically-rotating-a-grid) |
 | [2553-separate-the-digits-in-an-array](https://github.com/akashl13/leetcode-solutions/tree/master/2553-separate-the-digits-in-an-array) |
 ## Greedy
