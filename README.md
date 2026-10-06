@@ -30,6 +30,7 @@
 | [0032-longest-valid-parentheses](https://github.com/akashl13/leetcode-solutions/tree/master/0032-longest-valid-parentheses) |
 | [0038-count-and-say](https://github.com/akashl13/leetcode-solutions/tree/master/0038-count-and-say) |
 | [0043-multiply-strings](https://github.com/akashl13/leetcode-solutions/tree/master/0043-multiply-strings) |
+| [0044-wildcard-matching](https://github.com/akashl13/leetcode-solutions/tree/master/0044-wildcard-matching) |
 | [0678-valid-parenthesis-string](https://github.com/akashl13/leetcode-solutions/tree/master/0678-valid-parenthesis-string) |
 | [0856-score-of-parentheses](https://github.com/akashl13/leetcode-solutions/tree/master/0856-score-of-parentheses) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/akashl13/leetcode-solutions/tree/master/0921-minimum-add-to-make-parentheses-valid) |
@@ -45,6 +46,7 @@
 | [0022-generate-parentheses](https://github.com/akashl13/leetcode-solutions/tree/master/0022-generate-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/akashl13/leetcode-solutions/tree/master/0032-longest-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/akashl13/leetcode-solutions/tree/master/0042-trapping-rain-water) |
+| [0044-wildcard-matching](https://github.com/akashl13/leetcode-solutions/tree/master/0044-wildcard-matching) |
 | [0678-valid-parenthesis-string](https://github.com/akashl13/leetcode-solutions/tree/master/0678-valid-parenthesis-string) |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/akashl13/leetcode-solutions/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
 | [3660-jump-game-ix](https://github.com/akashl13/leetcode-solutions/tree/master/3660-jump-game-ix) |
@@ -196,6 +198,7 @@
 | ------- |
 | [0024-swap-nodes-in-pairs](https://github.com/akashl13/leetcode-solutions/tree/master/0024-swap-nodes-in-pairs) |
 | [0025-reverse-nodes-in-k-group](https://github.com/akashl13/leetcode-solutions/tree/master/0025-reverse-nodes-in-k-group) |
+| [0044-wildcard-matching](https://github.com/akashl13/leetcode-solutions/tree/master/0044-wildcard-matching) |
 ## String Matching
 |  |
 | ------- |
@@ -229,6 +232,7 @@
 ## Greedy
 |  |
 | ------- |
+| [0044-wildcard-matching](https://github.com/akashl13/leetcode-solutions/tree/master/0044-wildcard-matching) |
 | [0678-valid-parenthesis-string](https://github.com/akashl13/leetcode-solutions/tree/master/0678-valid-parenthesis-string) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/akashl13/leetcode-solutions/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/akashl13/leetcode-solutions/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
