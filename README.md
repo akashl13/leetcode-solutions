@@ -41,6 +41,7 @@
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/akashl13/leetcode-solutions/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/akashl13/leetcode-solutions/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
 | [1871-jump-game-vii](https://github.com/akashl13/leetcode-solutions/tree/master/1871-jump-game-vii) |
+| [3093-longest-common-suffix-queries](https://github.com/akashl13/leetcode-solutions/tree/master/3093-longest-common-suffix-queries) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/akashl13/leetcode-solutions/tree/master/3120-count-the-number-of-special-characters-i) |
 | [3121-count-the-number-of-special-characters-ii](https://github.com/akashl13/leetcode-solutions/tree/master/3121-count-the-number-of-special-characters-ii) |
 ## Dynamic Programming
@@ -120,6 +121,7 @@
 | [2553-separate-the-digits-in-an-array](https://github.com/akashl13/leetcode-solutions/tree/master/2553-separate-the-digits-in-an-array) |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/akashl13/leetcode-solutions/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
 | [2784-check-if-array-is-good](https://github.com/akashl13/leetcode-solutions/tree/master/2784-check-if-array-is-good) |
+| [3093-longest-common-suffix-queries](https://github.com/akashl13/leetcode-solutions/tree/master/3093-longest-common-suffix-queries) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/akashl13/leetcode-solutions/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 | [3660-jump-game-ix](https://github.com/akashl13/leetcode-solutions/tree/master/3660-jump-game-ix) |
 ## Matrix
@@ -284,4 +286,8 @@
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/akashl13/leetcode-solutions/tree/master/0042-trapping-rain-water) |
+## Trie
+|  |
+| ------- |
+| [3093-longest-common-suffix-queries](https://github.com/akashl13/leetcode-solutions/tree/master/3093-longest-common-suffix-queries) |
 <!---LeetCode Topics End-->
