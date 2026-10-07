@@ -42,6 +42,7 @@
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/akashl13/leetcode-solutions/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
 | [1871-jump-game-vii](https://github.com/akashl13/leetcode-solutions/tree/master/1871-jump-game-vii) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/akashl13/leetcode-solutions/tree/master/3120-count-the-number-of-special-characters-i) |
+| [3121-count-the-number-of-special-characters-ii](https://github.com/akashl13/leetcode-solutions/tree/master/3121-count-the-number-of-special-characters-ii) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -86,6 +87,7 @@
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/akashl13/leetcode-solutions/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
 | [2784-check-if-array-is-good](https://github.com/akashl13/leetcode-solutions/tree/master/2784-check-if-array-is-good) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/akashl13/leetcode-solutions/tree/master/3120-count-the-number-of-special-characters-i) |
+| [3121-count-the-number-of-special-characters-ii](https://github.com/akashl13/leetcode-solutions/tree/master/3121-count-the-number-of-special-characters-ii) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/akashl13/leetcode-solutions/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 ## Array
 |  |
