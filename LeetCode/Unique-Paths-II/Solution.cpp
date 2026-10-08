@@ -1,0 +1,1 @@
+dp[i][j]=0 if obstacleGrid[i][j]==1
