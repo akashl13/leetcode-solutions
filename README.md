@@ -54,6 +54,7 @@
 | [0042-trapping-rain-water](https://github.com/akashl13/leetcode-solutions/tree/master/0042-trapping-rain-water) |
 | [0044-wildcard-matching](https://github.com/akashl13/leetcode-solutions/tree/master/0044-wildcard-matching) |
 | [0045-jump-game-ii](https://github.com/akashl13/leetcode-solutions/tree/master/0045-jump-game-ii) |
+| [0053-maximum-subarray](https://github.com/akashl13/leetcode-solutions/tree/master/0053-maximum-subarray) |
 | [0678-valid-parenthesis-string](https://github.com/akashl13/leetcode-solutions/tree/master/0678-valid-parenthesis-string) |
 | [1340-jump-game-v](https://github.com/akashl13/leetcode-solutions/tree/master/1340-jump-game-v) |
 | [1871-jump-game-vii](https://github.com/akashl13/leetcode-solutions/tree/master/1871-jump-game-vii) |
@@ -115,6 +116,7 @@
 | [0048-rotate-image](https://github.com/akashl13/leetcode-solutions/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/akashl13/leetcode-solutions/tree/master/0049-group-anagrams) |
 | [0051-n-queens](https://github.com/akashl13/leetcode-solutions/tree/master/0051-n-queens) |
+| [0053-maximum-subarray](https://github.com/akashl13/leetcode-solutions/tree/master/0053-maximum-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/akashl13/leetcode-solutions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/akashl13/leetcode-solutions/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [1306-jump-game-iii](https://github.com/akashl13/leetcode-solutions/tree/master/1306-jump-game-iii) |
@@ -214,6 +216,7 @@
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/akashl13/leetcode-solutions/tree/master/0023-merge-k-sorted-lists) |
+| [0053-maximum-subarray](https://github.com/akashl13/leetcode-solutions/tree/master/0053-maximum-subarray) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
