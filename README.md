@@ -108,6 +108,7 @@
 | [0042-trapping-rain-water](https://github.com/akashl13/leetcode-solutions/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/akashl13/leetcode-solutions/tree/master/0045-jump-game-ii) |
 | [0046-permutations](https://github.com/akashl13/leetcode-solutions/tree/master/0046-permutations) |
+| [0047-permutations-ii](https://github.com/akashl13/leetcode-solutions/tree/master/0047-permutations-ii) |
 | [0048-rotate-image](https://github.com/akashl13/leetcode-solutions/tree/master/0048-rotate-image) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/akashl13/leetcode-solutions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/akashl13/leetcode-solutions/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
@@ -167,6 +168,7 @@
 | [0039-combination-sum](https://github.com/akashl13/leetcode-solutions/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/akashl13/leetcode-solutions/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/akashl13/leetcode-solutions/tree/master/0046-permutations) |
+| [0047-permutations-ii](https://github.com/akashl13/leetcode-solutions/tree/master/0047-permutations-ii) |
 | [0301-remove-invalid-parentheses](https://github.com/akashl13/leetcode-solutions/tree/master/0301-remove-invalid-parentheses) |
 | [1096-brace-expansion-ii](https://github.com/akashl13/leetcode-solutions/tree/master/1096-brace-expansion-ii) |
 ## Breadth-First Search
@@ -183,6 +185,7 @@
 | [0015-3sum](https://github.com/akashl13/leetcode-solutions/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/akashl13/leetcode-solutions/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/akashl13/leetcode-solutions/tree/master/0018-4sum) |
+| [0047-permutations-ii](https://github.com/akashl13/leetcode-solutions/tree/master/0047-permutations-ii) |
 | [1096-brace-expansion-ii](https://github.com/akashl13/leetcode-solutions/tree/master/1096-brace-expansion-ii) |
 | [1340-jump-game-v](https://github.com/akashl13/leetcode-solutions/tree/master/1340-jump-game-v) |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/akashl13/leetcode-solutions/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
