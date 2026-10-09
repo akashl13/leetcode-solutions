@@ -114,6 +114,7 @@
 | [0047-permutations-ii](https://github.com/akashl13/leetcode-solutions/tree/master/0047-permutations-ii) |
 | [0048-rotate-image](https://github.com/akashl13/leetcode-solutions/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/akashl13/leetcode-solutions/tree/master/0049-group-anagrams) |
+| [0051-n-queens](https://github.com/akashl13/leetcode-solutions/tree/master/0051-n-queens) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/akashl13/leetcode-solutions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/akashl13/leetcode-solutions/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [1306-jump-game-iii](https://github.com/akashl13/leetcode-solutions/tree/master/1306-jump-game-iii) |
@@ -173,6 +174,7 @@
 | [0040-combination-sum-ii](https://github.com/akashl13/leetcode-solutions/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/akashl13/leetcode-solutions/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/akashl13/leetcode-solutions/tree/master/0047-permutations-ii) |
+| [0051-n-queens](https://github.com/akashl13/leetcode-solutions/tree/master/0051-n-queens) |
 | [0301-remove-invalid-parentheses](https://github.com/akashl13/leetcode-solutions/tree/master/0301-remove-invalid-parentheses) |
 | [1096-brace-expansion-ii](https://github.com/akashl13/leetcode-solutions/tree/master/1096-brace-expansion-ii) |
 ## Breadth-First Search
@@ -283,6 +285,7 @@
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/akashl13/leetcode-solutions/tree/master/0037-sudoku-solver) |
+| [0051-n-queens](https://github.com/akashl13/leetcode-solutions/tree/master/0051-n-queens) |
 ## Dancing Links
 |  |
 | ------- |
