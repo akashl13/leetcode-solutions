@@ -1,29 +1,31 @@
+
 class Solution {
 public:
     ListNode* rotateRight(ListNode* head, int k) {
-        // Empty list or single node
-        if (head == nullptr || head->next == nullptr || k == 0)
+        if (head == nullptr || head->next == nullptr || k == 0) {
             return head;
+        }
 
-        // Find length and last node
-        int n = 1;
         ListNode* tail = head;
+        int n = 1;
 
+        // Find length and tail
         while (tail->next != nullptr) {
             tail = tail->next;
             n++;
         }
 
-        // Avoid unnecessary rotations
-        k = k % n;
+        // Remove unnecessary full rotations
+        k %= n;
 
-        if (k == 0)
+        if (k == 0) {
             return head;
+        }
 
         // Make the list circular
         tail->next = head;
 
-        // Find new tail
+        // Find the new tail
         int steps = n - k;
         ListNode* newTail = head;
 
@@ -31,12 +33,15 @@ public:
             newTail = newTail->next;
         }
 
-        // New head is after new tail
-        ListNode* newHead = newTail->next;
-
         // Break the circle
+        ListNode* newHead = newTail->next;
         newTail->next = nullptr;
 
         return newHead;
     }
 };
+
+
+// Synced seamlessly with LeetHub Pro
+// Pro features: https://bit.ly/leethubpro | Free version: https://bit.ly/leethubv4
+// Get it here: https://chromewebstore.google.com/detail/bcilpkkbokcopmabingnndookdogmbna
