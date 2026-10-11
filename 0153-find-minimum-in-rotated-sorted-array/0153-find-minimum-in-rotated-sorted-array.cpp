@@ -1,20 +1,16 @@
+
 class Solution {
 public:
     int findMin(vector<int>& nums) {
-
         int left = 0;
         int right = nums.size() - 1;
 
         while (left < right) {
-
             int mid = left + (right - left) / 2;
 
-            // Minimum is on the right side
             if (nums[mid] > nums[right]) {
                 left = mid + 1;
-            }
-            // Minimum is on the left side including mid
-            else {
+            } else {
                 right = mid;
             }
         }
@@ -22,3 +18,8 @@ public:
         return nums[left];
     }
 };
+
+
+// Synced seamlessly with LeetHub Pro
+// Pro features: https://bit.ly/leethubpro | Free version: https://bit.ly/leethubv4
+// Get it here: https://chromewebstore.google.com/detail/bcilpkkbokcopmabingnndookdogmbna
