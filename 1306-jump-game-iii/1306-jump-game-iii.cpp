@@ -1,42 +1,34 @@
+
 class Solution {
 public:
     bool canReach(vector<int>& arr, int start) {
-
         int n = arr.size();
-
         vector<bool> visited(n, false);
-        queue<int> q;
 
-        q.push(start);
-        visited[start] = true;
+        return dfs(arr, start, visited);
+    }
 
-        while (!q.empty()) {
-
-            int i = q.front();
-            q.pop();
-
-            // Found an index with value 0
-            if (arr[i] == 0) {
-                return true;
-            }
-
-            // Jump right
-            int right = i + arr[i];
-
-            if (right < n && !visited[right]) {
-                visited[right] = true;
-                q.push(right);
-            }
-
-            // Jump left
-            int left = i - arr[i];
-
-            if (left >= 0 && !visited[left]) {
-                visited[left] = true;
-                q.push(left);
-            }
+    bool dfs(vector<int>& arr, int i, vector<bool>& visited) {
+        // Out of bounds or already visited
+        if (i < 0 || i >= arr.size() || visited[i]) {
+            return false;
         }
 
-        return false;
+        // Found a zero
+        if (arr[i] == 0) {
+            return true;
+        }
+
+        // Mark this index as visited
+        visited[i] = true;
+
+        // Try both jump directions
+        return dfs(arr, i + arr[i], visited) ||
+               dfs(arr, i - arr[i], visited);
     }
 };
+
+
+// Synced seamlessly with LeetHub Pro
+// Pro features: https://bit.ly/leethubpro | Free version: https://bit.ly/leethubv4
+// Get it here: https://chromewebstore.google.com/detail/bcilpkkbokcopmabingnndookdogmbna
