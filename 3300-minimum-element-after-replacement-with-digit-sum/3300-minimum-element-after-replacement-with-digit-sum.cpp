@@ -1,11 +1,10 @@
+
 class Solution {
 public:
     int minElement(vector<int>& nums) {
-
-        int answer = INT_MAX;
+        int ans = INT_MAX;
 
         for (int num : nums) {
-
             int sum = 0;
 
             while (num > 0) {
@@ -13,9 +12,14 @@ public:
                 num /= 10;
             }
 
-            answer = min(answer, sum);
+            ans = min(ans, sum);
         }
 
-        return answer;
+        return ans;
     }
 };
+
+
+// Synced seamlessly with LeetHub Pro
+// Pro features: https://bit.ly/leethubpro | Free version: https://bit.ly/leethubv4
+// Get it here: https://chromewebstore.google.com/detail/bcilpkkbokcopmabingnndookdogmbna
