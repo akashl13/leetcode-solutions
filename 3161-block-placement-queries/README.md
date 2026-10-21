@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/block-placement-queries">3435. Block Placement Queries</a></h2><h3>Hard</h3><hr><p>There exists an infinite number line, with its origin at 0 and extending towards the <strong>positive</strong> x-axis.</p>
+<h2><a href="https://leetcode.com/problems/block-placement-queries">3161. Block Placement Queries</a></h2><h3>Hard</h3><hr><p>There exists an infinite number line, with its origin at 0 and extending towards the <strong>positive</strong> x-axis.</p>
 
 <p>You are given a 2D array <code>queries</code>, which contains two types of queries:</p>
 
