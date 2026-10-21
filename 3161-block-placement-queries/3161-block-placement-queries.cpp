@@ -1,136 +1,96 @@
+
 class Solution {
-public:
-    vector<bool> getResults(vector<vector<int>>& queries) {
+    static const int MAXX = 150005;
 
-        int MAXX = 0;
+    int seg[4 * MAXX];
+    int gap[MAXX];
 
-        for (auto &q : queries) {
-            MAXX = max(MAXX, q[1]);
+    void update(int node, int l, int r, int idx, int val) {
+        if (l == r) {
+            seg[node] = val;
+            return;
         }
 
-        vector<int> seg(4 * (MAXX + 2), 0);
+        int mid = (l + r) / 2;
 
-        // Segment Tree Update
-        auto update = [&](auto&& self, int node, int l, int r,
-                          int pos, int val) -> void {
+        if (idx <= mid)
+            update(node * 2, l, mid, idx, val);
+        else
+            update(node * 2 + 1, mid + 1, r, idx, val);
 
-            if (l == r) {
-                seg[node] = val;
-                return;
-            }
+        seg[node] = max(seg[node * 2], seg[node * 2 + 1]);
+    }
 
-            int mid = (l + r) / 2;
+    int query(int node, int l, int r, int ql, int qr) {
+        if (ql > r || qr < l)
+            return 0;
 
-            if (pos <= mid) {
-                self(self, node * 2, l, mid, pos, val);
-            }
-            else {
-                self(self, node * 2 + 1, mid + 1, r, pos, val);
-            }
+        if (ql <= l && r <= qr)
+            return seg[node];
 
-            seg[node] = max(seg[node * 2],
-                            seg[node * 2 + 1]);
-        };
+        int mid = (l + r) / 2;
 
-        // Segment Tree Query
-        auto query = [&](auto&& self, int node, int l, int r,
-                         int ql, int qr) -> int {
+        return max(
+            query(node * 2, l, mid, ql, qr),
+            query(node * 2 + 1, mid + 1, r, ql, qr)
+        );
+    }
 
-            if (qr < l || r < ql) {
-                return 0;
-            }
+public:
+    vector<bool> getResults(vector<vector<int>>& queries) {
+        int maxX = 0;
 
-            if (ql <= l && r <= qr) {
-                return seg[node];
-            }
+        for (auto& q : queries)
+            maxX = max(maxX, q[1]);
 
-            int mid = (l + r) / 2;
+        maxX += 2;
 
-            return max(
-                self(self, node * 2, l, mid, ql, qr),
-                self(self, node * 2 + 1, mid + 1, r, ql, qr)
-            );
-        };
+        memset(seg, 0, sizeof(seg));
 
-        set<int> obstacles;
+        set<int> obstacles = {0, maxX};
 
-        // Origin
-        obstacles.insert(0);
+        // Initially, the gap from coordinate 0 to maxX is maxX.
+        update(1, 0, maxX, 0, maxX);
 
         vector<bool> ans;
 
-        for (auto &q : queries) {
-
+        for (auto& q : queries) {
             int type = q[0];
             int x = q[1];
 
-            // -------------------------
-            // Type 1: Add obstacle
-            // -------------------------
             if (type == 1) {
-
                 auto it = obstacles.lower_bound(x);
-
-                int next = MAXX + 1;
-
-                if (it != obstacles.end()) {
-                    next = *it;
-                }
-
-                // IMPORTANT:
-                // Use std::prev() before declaring 'previous'
-                int previous = *std::prev(it);
+                int right = *it;
+                int left = *prev(it);
 
                 obstacles.insert(x);
 
-                // Gap: previous -> x
-                update(update, 1, 0, MAXX + 1,
-                       x, x - previous);
-
-                // Gap: x -> next
-                if (next <= MAXX) {
-                    update(update, 1, 0, MAXX + 1,
-                           next, next - x);
-                }
-            }
-
-            // -------------------------
-            // Type 2: Check block
-            // -------------------------
-            else {
-
+                // The old gap is replaced by two smaller gaps.
+                update(1, 0, maxX, left, x - left);
+                update(1, 0, maxX, x, right - x);
+            } else {
                 int sz = q[2];
 
-                // First obstacle strictly greater than x
+                // Find the greatest obstacle <= x.
                 auto it = obstacles.upper_bound(x);
+                --it;
+                int last = *it;
 
-                int previous = *std::prev(it);
+                // Largest complete gap before the last obstacle.
+                int best = query(1, 0, maxX, 0, last - 1);
 
-                // Gap from previous obstacle to x
-                int finalGap = x - previous;
+                // Also consider the remaining interval [last, x].
+                best = max(best, x - last);
 
-                bool possible = (finalGap >= sz);
-
-                if (!possible) {
-
-                    // Check complete gaps ending at
-                    // obstacles <= x
-                    int bestGap = query(
-                        query,
-                        1,
-                        0,
-                        MAXX + 1,
-                        0,
-                        x
-                    );
-
-                    possible = (bestGap >= sz);
-                }
-
-                ans.push_back(possible);
+                ans.push_back(best >= sz);
             }
         }
 
         return ans;
     }
 };
+
+
+// Synced seamlessly with LeetHub Pro
+// Pro features: https://bit.ly/leethubpro | Free version: https://bit.ly/leethubv4
+// Get it here: https://chromewebstore.google.com/detail/bcilpkkbokcopmabingnndookdogmbna
