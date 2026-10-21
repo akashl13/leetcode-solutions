@@ -1,41 +1,31 @@
+
 class Solution {
 public:
     bool canReach(string s, int minJump, int maxJump) {
-
         int n = s.size();
 
         vector<bool> dp(n, false);
-
-        // Starting position
         dp[0] = true;
 
         int reachable = 0;
 
         for (int i = 1; i < n; i++) {
-
-            // Add the new index entering our valid window
-            int add = i - minJump;
-
-            if (add >= 0 && dp[add]) {
-                reachable++;
+            if (i >= minJump) {
+                reachable += dp[i - minJump];
             }
 
-            // Remove the index leaving our valid window
-            int remove = i - maxJump - 1;
-
-            if (remove >= 0 && dp[remove]) {
-                reachable--;
+            if (i > maxJump) {
+                reachable -= dp[i - maxJump - 1];
             }
 
-            // i is reachable if:
-            // 1. It is '0'
-            // 2. There is at least one reachable position
-            //    in the allowed jump range
-            if (s[i] == '0' && reachable > 0) {
-                dp[i] = true;
-            }
+            dp[i] = (s[i] == '0' && reachable > 0);
         }
 
         return dp[n - 1];
     }
 };
+
+
+// Synced seamlessly with LeetHub Pro
+// Pro features: https://bit.ly/leethubpro | Free version: https://bit.ly/leethubv4
+// Get it here: https://chromewebstore.google.com/detail/bcilpkkbokcopmabingnndookdogmbna
