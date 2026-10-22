@@ -145,6 +145,7 @@
 | [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/akashl13/leetcode-solutions/tree/master/2897-apply-operations-on-array-to-maximize-sum-of-squares) |
 | [3093-longest-common-suffix-queries](https://github.com/akashl13/leetcode-solutions/tree/master/3093-longest-common-suffix-queries) |
 | [3161-block-placement-queries](https://github.com/akashl13/leetcode-solutions/tree/master/3161-block-placement-queries) |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/akashl13/leetcode-solutions/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/akashl13/leetcode-solutions/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/akashl13/leetcode-solutions/tree/master/3471-find-the-largest-almost-missing-integer) |
 | [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/akashl13/leetcode-solutions/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
@@ -160,6 +161,7 @@
 | [0054-spiral-matrix](https://github.com/akashl13/leetcode-solutions/tree/master/0054-spiral-matrix) |
 | [1861-rotating-the-box](https://github.com/akashl13/leetcode-solutions/tree/master/1861-rotating-the-box) |
 | [1914-cyclically-rotating-a-grid](https://github.com/akashl13/leetcode-solutions/tree/master/1914-cyclically-rotating-a-grid) |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/akashl13/leetcode-solutions/tree/master/3286-find-a-safe-walk-through-a-grid) |
 ## Stack
 |  |
 | ------- |
@@ -203,6 +205,7 @@
 | [1096-brace-expansion-ii](https://github.com/akashl13/leetcode-solutions/tree/master/1096-brace-expansion-ii) |
 | [1306-jump-game-iii](https://github.com/akashl13/leetcode-solutions/tree/master/1306-jump-game-iii) |
 | [1345-jump-game-iv](https://github.com/akashl13/leetcode-solutions/tree/master/1345-jump-game-iv) |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/akashl13/leetcode-solutions/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/akashl13/leetcode-solutions/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 ## Sorting
 |  |
@@ -238,6 +241,7 @@
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/akashl13/leetcode-solutions/tree/master/0023-merge-k-sorted-lists) |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/akashl13/leetcode-solutions/tree/master/3286-find-a-safe-walk-through-a-grid) |
 ## Merge Sort
 |  |
 | ------- |
@@ -355,4 +359,12 @@
 |  |
 | ------- |
 | [3499-maximize-active-section-with-trade-i](https://github.com/akashl13/leetcode-solutions/tree/master/3499-maximize-active-section-with-trade-i) |
+## Graph Theory
+|  |
+| ------- |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/akashl13/leetcode-solutions/tree/master/3286-find-a-safe-walk-through-a-grid) |
+## Shortest Path
+|  |
+| ------- |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/akashl13/leetcode-solutions/tree/master/3286-find-a-safe-walk-through-a-grid) |
 <!---LeetCode Topics End-->
