@@ -65,6 +65,7 @@
 | [1871-jump-game-vii](https://github.com/akashl13/leetcode-solutions/tree/master/1871-jump-game-vii) |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/akashl13/leetcode-solutions/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
 | [3660-jump-game-ix](https://github.com/akashl13/leetcode-solutions/tree/master/3660-jump-game-ix) |
+| [3699-number-of-zigzag-arrays-i](https://github.com/akashl13/leetcode-solutions/tree/master/3699-number-of-zigzag-arrays-i) |
 ## Manacher
 |  |
 | ------- |
@@ -311,6 +312,7 @@
 | ------- |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/akashl13/leetcode-solutions/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [1871-jump-game-vii](https://github.com/akashl13/leetcode-solutions/tree/master/1871-jump-game-vii) |
+| [3699-number-of-zigzag-arrays-i](https://github.com/akashl13/leetcode-solutions/tree/master/3699-number-of-zigzag-arrays-i) |
 ## Algorithm X
 |  |
 | ------- |
