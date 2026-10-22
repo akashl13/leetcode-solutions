@@ -95,6 +95,7 @@
 | [2784-check-if-array-is-good](https://github.com/akashl13/leetcode-solutions/tree/master/2784-check-if-array-is-good) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/akashl13/leetcode-solutions/tree/master/3120-count-the-number-of-special-characters-i) |
 | [3121-count-the-number-of-special-characters-ii](https://github.com/akashl13/leetcode-solutions/tree/master/3121-count-the-number-of-special-characters-ii) |
+| [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/akashl13/leetcode-solutions/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/akashl13/leetcode-solutions/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 ## Array
 |  |
@@ -137,6 +138,7 @@
 | [3093-longest-common-suffix-queries](https://github.com/akashl13/leetcode-solutions/tree/master/3093-longest-common-suffix-queries) |
 | [3161-block-placement-queries](https://github.com/akashl13/leetcode-solutions/tree/master/3161-block-placement-queries) |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/akashl13/leetcode-solutions/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
+| [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/akashl13/leetcode-solutions/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/akashl13/leetcode-solutions/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 | [3660-jump-game-ix](https://github.com/akashl13/leetcode-solutions/tree/master/3660-jump-game-ix) |
 | [3942-minimum-operations-to-sort-a-permutation](https://github.com/akashl13/leetcode-solutions/tree/master/3942-minimum-operations-to-sort-a-permutation) |
@@ -205,6 +207,7 @@
 | [1340-jump-game-v](https://github.com/akashl13/leetcode-solutions/tree/master/1340-jump-game-v) |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/akashl13/leetcode-solutions/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
 | [2784-check-if-array-is-good](https://github.com/akashl13/leetcode-solutions/tree/master/2784-check-if-array-is-good) |
+| [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/akashl13/leetcode-solutions/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
 ## Linked List
 |  |
 | ------- |
