@@ -139,6 +139,7 @@
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/akashl13/leetcode-solutions/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/akashl13/leetcode-solutions/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 | [3660-jump-game-ix](https://github.com/akashl13/leetcode-solutions/tree/master/3660-jump-game-ix) |
+| [3942-minimum-operations-to-sort-a-permutation](https://github.com/akashl13/leetcode-solutions/tree/master/3942-minimum-operations-to-sort-a-permutation) |
 ## Matrix
 |  |
 | ------- |
