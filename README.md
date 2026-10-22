@@ -61,6 +61,7 @@
 | [0053-maximum-subarray](https://github.com/akashl13/leetcode-solutions/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/akashl13/leetcode-solutions/tree/master/0055-jump-game) |
 | [0095-unique-binary-search-trees-ii](https://github.com/akashl13/leetcode-solutions/tree/master/0095-unique-binary-search-trees-ii) |
+| [0096-unique-binary-search-trees](https://github.com/akashl13/leetcode-solutions/tree/master/0096-unique-binary-search-trees) |
 | [0115-distinct-subsequences](https://github.com/akashl13/leetcode-solutions/tree/master/0115-distinct-subsequences) |
 | [0678-valid-parenthesis-string](https://github.com/akashl13/leetcode-solutions/tree/master/0678-valid-parenthesis-string) |
 | [1340-jump-game-v](https://github.com/akashl13/leetcode-solutions/tree/master/1340-jump-game-v) |
@@ -82,6 +83,7 @@
 | [0043-multiply-strings](https://github.com/akashl13/leetcode-solutions/tree/master/0043-multiply-strings) |
 | [0048-rotate-image](https://github.com/akashl13/leetcode-solutions/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/akashl13/leetcode-solutions/tree/master/0050-powx-n) |
+| [0096-unique-binary-search-trees](https://github.com/akashl13/leetcode-solutions/tree/master/0096-unique-binary-search-trees) |
 | [1927-sum-game](https://github.com/akashl13/leetcode-solutions/tree/master/1927-sum-game) |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/akashl13/leetcode-solutions/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/akashl13/leetcode-solutions/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
@@ -380,12 +382,15 @@
 |  |
 | ------- |
 | [0095-unique-binary-search-trees-ii](https://github.com/akashl13/leetcode-solutions/tree/master/0095-unique-binary-search-trees-ii) |
+| [0096-unique-binary-search-trees](https://github.com/akashl13/leetcode-solutions/tree/master/0096-unique-binary-search-trees) |
 ## Binary Search Tree
 |  |
 | ------- |
 | [0095-unique-binary-search-trees-ii](https://github.com/akashl13/leetcode-solutions/tree/master/0095-unique-binary-search-trees-ii) |
+| [0096-unique-binary-search-trees](https://github.com/akashl13/leetcode-solutions/tree/master/0096-unique-binary-search-trees) |
 ## Binary Tree
 |  |
 | ------- |
 | [0095-unique-binary-search-trees-ii](https://github.com/akashl13/leetcode-solutions/tree/master/0095-unique-binary-search-trees-ii) |
+| [0096-unique-binary-search-trees](https://github.com/akashl13/leetcode-solutions/tree/master/0096-unique-binary-search-trees) |
 <!---LeetCode Topics End-->
