@@ -32,6 +32,7 @@
 | [0043-multiply-strings](https://github.com/akashl13/leetcode-solutions/tree/master/0043-multiply-strings) |
 | [0044-wildcard-matching](https://github.com/akashl13/leetcode-solutions/tree/master/0044-wildcard-matching) |
 | [0049-group-anagrams](https://github.com/akashl13/leetcode-solutions/tree/master/0049-group-anagrams) |
+| [0115-distinct-subsequences](https://github.com/akashl13/leetcode-solutions/tree/master/0115-distinct-subsequences) |
 | [0301-remove-invalid-parentheses](https://github.com/akashl13/leetcode-solutions/tree/master/0301-remove-invalid-parentheses) |
 | [0678-valid-parenthesis-string](https://github.com/akashl13/leetcode-solutions/tree/master/0678-valid-parenthesis-string) |
 | [0856-score-of-parentheses](https://github.com/akashl13/leetcode-solutions/tree/master/0856-score-of-parentheses) |
@@ -57,6 +58,7 @@
 | [0045-jump-game-ii](https://github.com/akashl13/leetcode-solutions/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/akashl13/leetcode-solutions/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/akashl13/leetcode-solutions/tree/master/0055-jump-game) |
+| [0115-distinct-subsequences](https://github.com/akashl13/leetcode-solutions/tree/master/0115-distinct-subsequences) |
 | [0678-valid-parenthesis-string](https://github.com/akashl13/leetcode-solutions/tree/master/0678-valid-parenthesis-string) |
 | [1340-jump-game-v](https://github.com/akashl13/leetcode-solutions/tree/master/1340-jump-game-v) |
 | [1871-jump-game-vii](https://github.com/akashl13/leetcode-solutions/tree/master/1871-jump-game-vii) |
