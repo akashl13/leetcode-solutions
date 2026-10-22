@@ -1,35 +1,37 @@
+
 class Solution {
 public:
+    vector<string> generateParenthesis(int n) {
+        vector<string> result;
+        string current;
 
+        backtrack(n, 0, 0, current, result);
+
+        return result;
+    }
+
+private:
     void backtrack(int n, int open, int close,
-                   string current,
-                   vector<string>& result) {
-
-        // If we used all parentheses
-        if (current.length() == 2 * n) {
+                   string& current, vector<string>& result) {
+        // A complete valid combination is formed
+        if (current.size() == 2 * n) {
             result.push_back(current);
             return;
         }
 
-        // We can add '(' if we haven't used all n
+        // Add an opening parenthesis
         if (open < n) {
-            backtrack(n, open + 1, close,
-                      current + "(", result);
+            current.push_back('(');
+            backtrack(n, open + 1, close, current, result);
+            current.pop_back();
         }
 
-        // We can add ')' only if there are unmatched '('
+        // Add a closing parenthesis only when it is valid
         if (close < open) {
-            backtrack(n, open, close + 1,
-                      current + ")", result);
+            current.push_back(')');
+            backtrack(n, open, close + 1, current, result);
+            current.pop_back();
         }
-    }
-
-    vector<string> generateParenthesis(int n) {
-
-        vector<string> result;
-
-        backtrack(n, 0, 0, "", result);
-
-        return result;
     }
 };
+
