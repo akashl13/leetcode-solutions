@@ -1,50 +1,45 @@
+
 class Solution {
 public:
-    
-    // Parse one expression
-    set<string> parse(string& expression, int& i) {
+    string s;
+    int pos = 0;
+
+    set<string> parse() {
         set<string> result;
         set<string> current = {""};
 
-        while (i < expression.size() && expression[i] != '}') {
-            
-            if (expression[i] == ',') {
-                // Union
-                for (string word : current) {
+        while (pos < s.size() && s[pos] != '}') {
+            if (s[pos] == ',') {
+                for (const string& word : current) {
                     result.insert(word);
                 }
-
                 current = {""};
-                i++;
-            }
-            else {
+                pos++;
+            } else {
                 set<string> part;
 
-                if (expression[i] == '{') {
-                    i++; // Skip '{'
-                    part = parse(expression, i);
-                    i++; // Skip '}'
-                }
-                else {
-                    part.insert(string(1, expression[i]));
-                    i++;
+                if (s[pos] == '{') {
+                    pos++;
+                    part = parse();
+                    pos++; // Skip '}'
+                } else {
+                    part.insert(string(1, s[pos]));
+                    pos++;
                 }
 
-                // Concatenate current × part
-                set<string> next;
+                set<string> combined;
 
-                for (string a : current) {
-                    for (string b : part) {
-                        next.insert(a + b);
+                for (const string& a : current) {
+                    for (const string& b : part) {
+                        combined.insert(a + b);
                     }
                 }
 
-                current = next;
+                current = combined;
             }
         }
 
-        // Add final part
-        for (string word : current) {
+        for (const string& word : current) {
             result.insert(word);
         }
 
@@ -52,9 +47,10 @@ public:
     }
 
     vector<string> braceExpansionII(string expression) {
-        int i = 0;
+        s = expression;
+        pos = 0;
 
-        set<string> result = parse(expression, i);
+        set<string> result = parse();
 
         return vector<string>(result.begin(), result.end());
     }
