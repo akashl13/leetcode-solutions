@@ -147,6 +147,7 @@
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/akashl13/leetcode-solutions/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
 | [1861-rotating-the-box](https://github.com/akashl13/leetcode-solutions/tree/master/1861-rotating-the-box) |
 | [1914-cyclically-rotating-a-grid](https://github.com/akashl13/leetcode-solutions/tree/master/1914-cyclically-rotating-a-grid) |
+| [2126-destroying-asteroids](https://github.com/akashl13/leetcode-solutions/tree/master/2126-destroying-asteroids) |
 | [2553-separate-the-digits-in-an-array](https://github.com/akashl13/leetcode-solutions/tree/master/2553-separate-the-digits-in-an-array) |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/akashl13/leetcode-solutions/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
 | [2784-check-if-array-is-good](https://github.com/akashl13/leetcode-solutions/tree/master/2784-check-if-array-is-good) |
@@ -230,6 +231,7 @@
 | [1096-brace-expansion-ii](https://github.com/akashl13/leetcode-solutions/tree/master/1096-brace-expansion-ii) |
 | [1340-jump-game-v](https://github.com/akashl13/leetcode-solutions/tree/master/1340-jump-game-v) |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/akashl13/leetcode-solutions/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
+| [2126-destroying-asteroids](https://github.com/akashl13/leetcode-solutions/tree/master/2126-destroying-asteroids) |
 | [2784-check-if-array-is-good](https://github.com/akashl13/leetcode-solutions/tree/master/2784-check-if-array-is-good) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/akashl13/leetcode-solutions/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/akashl13/leetcode-solutions/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
@@ -313,6 +315,7 @@
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/akashl13/leetcode-solutions/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/akashl13/leetcode-solutions/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
 | [1927-sum-game](https://github.com/akashl13/leetcode-solutions/tree/master/1927-sum-game) |
+| [2126-destroying-asteroids](https://github.com/akashl13/leetcode-solutions/tree/master/2126-destroying-asteroids) |
 | [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/akashl13/leetcode-solutions/tree/master/2897-apply-operations-on-array-to-maximize-sum-of-squares) |
 ## Database
 |  |
