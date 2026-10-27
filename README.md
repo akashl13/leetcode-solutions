@@ -167,6 +167,7 @@
 | [3660-jump-game-ix](https://github.com/akashl13/leetcode-solutions/tree/master/3660-jump-game-ix) |
 | [3875-construct-uniform-parity-array-i](https://github.com/akashl13/leetcode-solutions/tree/master/3875-construct-uniform-parity-array-i) |
 | [3876-construct-uniform-parity-array-ii](https://github.com/akashl13/leetcode-solutions/tree/master/3876-construct-uniform-parity-array-ii) |
+| [3903-smallest-stable-index-i](https://github.com/akashl13/leetcode-solutions/tree/master/3903-smallest-stable-index-i) |
 | [3942-minimum-operations-to-sort-a-permutation](https://github.com/akashl13/leetcode-solutions/tree/master/3942-minimum-operations-to-sort-a-permutation) |
 ## Matrix
 |  |
@@ -336,6 +337,7 @@
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/akashl13/leetcode-solutions/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [1871-jump-game-vii](https://github.com/akashl13/leetcode-solutions/tree/master/1871-jump-game-vii) |
 | [3699-number-of-zigzag-arrays-i](https://github.com/akashl13/leetcode-solutions/tree/master/3699-number-of-zigzag-arrays-i) |
+| [3903-smallest-stable-index-i](https://github.com/akashl13/leetcode-solutions/tree/master/3903-smallest-stable-index-i) |
 ## Algorithm X
 |  |
 | ------- |
