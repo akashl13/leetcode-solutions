@@ -89,6 +89,7 @@
 | [0050-powx-n](https://github.com/akashl13/leetcode-solutions/tree/master/0050-powx-n) |
 | [0096-unique-binary-search-trees](https://github.com/akashl13/leetcode-solutions/tree/master/0096-unique-binary-search-trees) |
 | [1927-sum-game](https://github.com/akashl13/leetcode-solutions/tree/master/1927-sum-game) |
+| [2235-add-two-integers](https://github.com/akashl13/leetcode-solutions/tree/master/2235-add-two-integers) |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/akashl13/leetcode-solutions/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
 | [3326-minimum-division-operations-to-make-array-non-decreasing](https://github.com/akashl13/leetcode-solutions/tree/master/3326-minimum-division-operations-to-make-array-non-decreasing) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/akashl13/leetcode-solutions/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
