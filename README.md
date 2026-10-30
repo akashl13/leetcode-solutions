@@ -51,6 +51,7 @@
 | [3120-count-the-number-of-special-characters-i](https://github.com/akashl13/leetcode-solutions/tree/master/3120-count-the-number-of-special-characters-i) |
 | [3121-count-the-number-of-special-characters-ii](https://github.com/akashl13/leetcode-solutions/tree/master/3121-count-the-number-of-special-characters-ii) |
 | [3499-maximize-active-section-with-trade-i](https://github.com/akashl13/leetcode-solutions/tree/master/3499-maximize-active-section-with-trade-i) |
+| [3970-shortest-path-with-at-most-k-consecutive-identical-characters](https://github.com/akashl13/leetcode-solutions/tree/master/3970-shortest-path-with-at-most-k-consecutive-identical-characters) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -265,6 +266,7 @@
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/akashl13/leetcode-solutions/tree/master/0023-merge-k-sorted-lists) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/akashl13/leetcode-solutions/tree/master/3286-find-a-safe-walk-through-a-grid) |
+| [3970-shortest-path-with-at-most-k-consecutive-identical-characters](https://github.com/akashl13/leetcode-solutions/tree/master/3970-shortest-path-with-at-most-k-consecutive-identical-characters) |
 ## Merge Sort
 |  |
 | ------- |
@@ -394,10 +396,12 @@
 |  |
 | ------- |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/akashl13/leetcode-solutions/tree/master/3286-find-a-safe-walk-through-a-grid) |
+| [3970-shortest-path-with-at-most-k-consecutive-identical-characters](https://github.com/akashl13/leetcode-solutions/tree/master/3970-shortest-path-with-at-most-k-consecutive-identical-characters) |
 ## Shortest Path
 |  |
 | ------- |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/akashl13/leetcode-solutions/tree/master/3286-find-a-safe-walk-through-a-grid) |
+| [3970-shortest-path-with-at-most-k-consecutive-identical-characters](https://github.com/akashl13/leetcode-solutions/tree/master/3970-shortest-path-with-at-most-k-consecutive-identical-characters) |
 ## Tree
 |  |
 | ------- |
