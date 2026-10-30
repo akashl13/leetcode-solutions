@@ -111,6 +111,7 @@
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/akashl13/leetcode-solutions/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/akashl13/leetcode-solutions/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
 | [2784-check-if-array-is-good](https://github.com/akashl13/leetcode-solutions/tree/master/2784-check-if-array-is-good) |
+| [2875-minimum-size-subarray-in-infinite-array](https://github.com/akashl13/leetcode-solutions/tree/master/2875-minimum-size-subarray-in-infinite-array) |
 | [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/akashl13/leetcode-solutions/tree/master/2897-apply-operations-on-array-to-maximize-sum-of-squares) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/akashl13/leetcode-solutions/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/akashl13/leetcode-solutions/tree/master/3120-count-the-number-of-special-characters-i) |
@@ -157,6 +158,7 @@
 | [2553-separate-the-digits-in-an-array](https://github.com/akashl13/leetcode-solutions/tree/master/2553-separate-the-digits-in-an-array) |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/akashl13/leetcode-solutions/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
 | [2784-check-if-array-is-good](https://github.com/akashl13/leetcode-solutions/tree/master/2784-check-if-array-is-good) |
+| [2875-minimum-size-subarray-in-infinite-array](https://github.com/akashl13/leetcode-solutions/tree/master/2875-minimum-size-subarray-in-infinite-array) |
 | [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/akashl13/leetcode-solutions/tree/master/2897-apply-operations-on-array-to-maximize-sum-of-squares) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/akashl13/leetcode-solutions/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3093-longest-common-suffix-queries](https://github.com/akashl13/leetcode-solutions/tree/master/3093-longest-common-suffix-queries) |
@@ -313,6 +315,7 @@
 | ------- |
 | [0030-substring-with-concatenation-of-all-words](https://github.com/akashl13/leetcode-solutions/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [1871-jump-game-vii](https://github.com/akashl13/leetcode-solutions/tree/master/1871-jump-game-vii) |
+| [2875-minimum-size-subarray-in-infinite-array](https://github.com/akashl13/leetcode-solutions/tree/master/2875-minimum-size-subarray-in-infinite-array) |
 ## Simulation
 |  |
 | ------- |
@@ -344,6 +347,7 @@
 | ------- |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/akashl13/leetcode-solutions/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [1871-jump-game-vii](https://github.com/akashl13/leetcode-solutions/tree/master/1871-jump-game-vii) |
+| [2875-minimum-size-subarray-in-infinite-array](https://github.com/akashl13/leetcode-solutions/tree/master/2875-minimum-size-subarray-in-infinite-array) |
 | [3699-number-of-zigzag-arrays-i](https://github.com/akashl13/leetcode-solutions/tree/master/3699-number-of-zigzag-arrays-i) |
 | [3903-smallest-stable-index-i](https://github.com/akashl13/leetcode-solutions/tree/master/3903-smallest-stable-index-i) |
 ## Algorithm X
