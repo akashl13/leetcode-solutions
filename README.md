@@ -70,6 +70,7 @@
 | [0115-distinct-subsequences](https://github.com/akashl13/leetcode-solutions/tree/master/0115-distinct-subsequences) |
 | [0678-valid-parenthesis-string](https://github.com/akashl13/leetcode-solutions/tree/master/0678-valid-parenthesis-string) |
 | [1340-jump-game-v](https://github.com/akashl13/leetcode-solutions/tree/master/1340-jump-game-v) |
+| [1406-stone-game-iii](https://github.com/akashl13/leetcode-solutions/tree/master/1406-stone-game-iii) |
 | [1871-jump-game-vii](https://github.com/akashl13/leetcode-solutions/tree/master/1871-jump-game-vii) |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/akashl13/leetcode-solutions/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
 | [3660-jump-game-ix](https://github.com/akashl13/leetcode-solutions/tree/master/3660-jump-game-ix) |
@@ -89,6 +90,7 @@
 | [0048-rotate-image](https://github.com/akashl13/leetcode-solutions/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/akashl13/leetcode-solutions/tree/master/0050-powx-n) |
 | [0096-unique-binary-search-trees](https://github.com/akashl13/leetcode-solutions/tree/master/0096-unique-binary-search-trees) |
+| [1406-stone-game-iii](https://github.com/akashl13/leetcode-solutions/tree/master/1406-stone-game-iii) |
 | [1927-sum-game](https://github.com/akashl13/leetcode-solutions/tree/master/1927-sum-game) |
 | [2235-add-two-integers](https://github.com/akashl13/leetcode-solutions/tree/master/2235-add-two-integers) |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/akashl13/leetcode-solutions/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
@@ -150,6 +152,7 @@
 | [1306-jump-game-iii](https://github.com/akashl13/leetcode-solutions/tree/master/1306-jump-game-iii) |
 | [1340-jump-game-v](https://github.com/akashl13/leetcode-solutions/tree/master/1340-jump-game-v) |
 | [1345-jump-game-iv](https://github.com/akashl13/leetcode-solutions/tree/master/1345-jump-game-iv) |
+| [1406-stone-game-iii](https://github.com/akashl13/leetcode-solutions/tree/master/1406-stone-game-iii) |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/akashl13/leetcode-solutions/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/akashl13/leetcode-solutions/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/akashl13/leetcode-solutions/tree/master/1752-check-if-array-is-sorted-and-rotated) |
@@ -404,6 +407,7 @@
 ## Game Theory
 |  |
 | ------- |
+| [1406-stone-game-iii](https://github.com/akashl13/leetcode-solutions/tree/master/1406-stone-game-iii) |
 | [1927-sum-game](https://github.com/akashl13/leetcode-solutions/tree/master/1927-sum-game) |
 ## Enumeration
 |  |
@@ -444,4 +448,12 @@
 | [0099-recover-binary-search-tree](https://github.com/akashl13/leetcode-solutions/tree/master/0099-recover-binary-search-tree) |
 | [0100-same-tree](https://github.com/akashl13/leetcode-solutions/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/akashl13/leetcode-solutions/tree/master/0101-symmetric-tree) |
+## Minimax
+|  |
+| ------- |
+| [1406-stone-game-iii](https://github.com/akashl13/leetcode-solutions/tree/master/1406-stone-game-iii) |
+## Zero-Sum Game
+|  |
+| ------- |
+| [1406-stone-game-iii](https://github.com/akashl13/leetcode-solutions/tree/master/1406-stone-game-iii) |
 <!---LeetCode Topics End-->
