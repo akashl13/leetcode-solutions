@@ -75,6 +75,7 @@
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/akashl13/leetcode-solutions/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
 | [3660-jump-game-ix](https://github.com/akashl13/leetcode-solutions/tree/master/3660-jump-game-ix) |
 | [3699-number-of-zigzag-arrays-i](https://github.com/akashl13/leetcode-solutions/tree/master/3699-number-of-zigzag-arrays-i) |
+| [3700-number-of-zigzag-arrays-ii](https://github.com/akashl13/leetcode-solutions/tree/master/3700-number-of-zigzag-arrays-ii) |
 ## Manacher
 |  |
 | ------- |
@@ -96,6 +97,7 @@
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/akashl13/leetcode-solutions/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
 | [3326-minimum-division-operations-to-make-array-non-decreasing](https://github.com/akashl13/leetcode-solutions/tree/master/3326-minimum-division-operations-to-make-array-non-decreasing) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/akashl13/leetcode-solutions/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
+| [3700-number-of-zigzag-arrays-ii](https://github.com/akashl13/leetcode-solutions/tree/master/3700-number-of-zigzag-arrays-ii) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/akashl13/leetcode-solutions/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 | [3875-construct-uniform-parity-array-i](https://github.com/akashl13/leetcode-solutions/tree/master/3875-construct-uniform-parity-array-i) |
 | [3876-construct-uniform-parity-array-ii](https://github.com/akashl13/leetcode-solutions/tree/master/3876-construct-uniform-parity-array-ii) |
