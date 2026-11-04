@@ -51,6 +51,7 @@
 | [3120-count-the-number-of-special-characters-i](https://github.com/akashl13/leetcode-solutions/tree/master/3120-count-the-number-of-special-characters-i) |
 | [3121-count-the-number-of-special-characters-ii](https://github.com/akashl13/leetcode-solutions/tree/master/3121-count-the-number-of-special-characters-ii) |
 | [3499-maximize-active-section-with-trade-i](https://github.com/akashl13/leetcode-solutions/tree/master/3499-maximize-active-section-with-trade-i) |
+| [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/akashl13/leetcode-solutions/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 | [3970-shortest-path-with-at-most-k-consecutive-identical-characters](https://github.com/akashl13/leetcode-solutions/tree/master/3970-shortest-path-with-at-most-k-consecutive-identical-characters) |
 ## Dynamic Programming
 |  |
@@ -93,6 +94,7 @@
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/akashl13/leetcode-solutions/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
 | [3326-minimum-division-operations-to-make-array-non-decreasing](https://github.com/akashl13/leetcode-solutions/tree/master/3326-minimum-division-operations-to-make-array-non-decreasing) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/akashl13/leetcode-solutions/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
+| [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/akashl13/leetcode-solutions/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 | [3875-construct-uniform-parity-array-i](https://github.com/akashl13/leetcode-solutions/tree/master/3875-construct-uniform-parity-array-i) |
 | [3876-construct-uniform-parity-array-ii](https://github.com/akashl13/leetcode-solutions/tree/master/3876-construct-uniform-parity-array-ii) |
 ## Hash Table
@@ -351,6 +353,7 @@
 | [1871-jump-game-vii](https://github.com/akashl13/leetcode-solutions/tree/master/1871-jump-game-vii) |
 | [2875-minimum-size-subarray-in-infinite-array](https://github.com/akashl13/leetcode-solutions/tree/master/2875-minimum-size-subarray-in-infinite-array) |
 | [3699-number-of-zigzag-arrays-i](https://github.com/akashl13/leetcode-solutions/tree/master/3699-number-of-zigzag-arrays-i) |
+| [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/akashl13/leetcode-solutions/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 | [3903-smallest-stable-index-i](https://github.com/akashl13/leetcode-solutions/tree/master/3903-smallest-stable-index-i) |
 ## Algorithm X
 |  |
