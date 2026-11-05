@@ -154,6 +154,7 @@
 | [0055-jump-game](https://github.com/akashl13/leetcode-solutions/tree/master/0055-jump-game) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/akashl13/leetcode-solutions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/akashl13/leetcode-solutions/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/akashl13/leetcode-solutions/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/akashl13/leetcode-solutions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/akashl13/leetcode-solutions/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [1306-jump-game-iii](https://github.com/akashl13/leetcode-solutions/tree/master/1306-jump-game-iii) |
@@ -288,6 +289,7 @@
 | [0053-maximum-subarray](https://github.com/akashl13/leetcode-solutions/tree/master/0053-maximum-subarray) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/akashl13/leetcode-solutions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/akashl13/leetcode-solutions/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/akashl13/leetcode-solutions/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -451,6 +453,7 @@
 | [0104-maximum-depth-of-binary-tree](https://github.com/akashl13/leetcode-solutions/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/akashl13/leetcode-solutions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/akashl13/leetcode-solutions/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/akashl13/leetcode-solutions/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [3820-pythagorean-distance-nodes-in-a-tree](https://github.com/akashl13/leetcode-solutions/tree/master/3820-pythagorean-distance-nodes-in-a-tree) |
 ## Binary Search Tree
 |  |
@@ -459,6 +462,7 @@
 | [0096-unique-binary-search-trees](https://github.com/akashl13/leetcode-solutions/tree/master/0096-unique-binary-search-trees) |
 | [0098-validate-binary-search-tree](https://github.com/akashl13/leetcode-solutions/tree/master/0098-validate-binary-search-tree) |
 | [0099-recover-binary-search-tree](https://github.com/akashl13/leetcode-solutions/tree/master/0099-recover-binary-search-tree) |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/akashl13/leetcode-solutions/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 ## Binary Tree
 |  |
 | ------- |
@@ -471,6 +475,7 @@
 | [0104-maximum-depth-of-binary-tree](https://github.com/akashl13/leetcode-solutions/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/akashl13/leetcode-solutions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/akashl13/leetcode-solutions/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/akashl13/leetcode-solutions/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 ## Minimax
 |  |
 | ------- |
