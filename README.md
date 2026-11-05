@@ -244,6 +244,7 @@
 | [1345-jump-game-iv](https://github.com/akashl13/leetcode-solutions/tree/master/1345-jump-game-iv) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/akashl13/leetcode-solutions/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/akashl13/leetcode-solutions/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
+| [3820-pythagorean-distance-nodes-in-a-tree](https://github.com/akashl13/leetcode-solutions/tree/master/3820-pythagorean-distance-nodes-in-a-tree) |
 ## Sorting
 |  |
 | ------- |
@@ -439,6 +440,7 @@
 | [0099-recover-binary-search-tree](https://github.com/akashl13/leetcode-solutions/tree/master/0099-recover-binary-search-tree) |
 | [0100-same-tree](https://github.com/akashl13/leetcode-solutions/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/akashl13/leetcode-solutions/tree/master/0101-symmetric-tree) |
+| [3820-pythagorean-distance-nodes-in-a-tree](https://github.com/akashl13/leetcode-solutions/tree/master/3820-pythagorean-distance-nodes-in-a-tree) |
 ## Binary Search Tree
 |  |
 | ------- |
