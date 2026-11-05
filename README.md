@@ -238,6 +238,7 @@
 | ------- |
 | [0100-same-tree](https://github.com/akashl13/leetcode-solutions/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/akashl13/leetcode-solutions/tree/master/0101-symmetric-tree) |
+| [0104-maximum-depth-of-binary-tree](https://github.com/akashl13/leetcode-solutions/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0301-remove-invalid-parentheses](https://github.com/akashl13/leetcode-solutions/tree/master/0301-remove-invalid-parentheses) |
 | [1096-brace-expansion-ii](https://github.com/akashl13/leetcode-solutions/tree/master/1096-brace-expansion-ii) |
 | [1306-jump-game-iii](https://github.com/akashl13/leetcode-solutions/tree/master/1306-jump-game-iii) |
@@ -391,6 +392,7 @@
 | [0099-recover-binary-search-tree](https://github.com/akashl13/leetcode-solutions/tree/master/0099-recover-binary-search-tree) |
 | [0100-same-tree](https://github.com/akashl13/leetcode-solutions/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/akashl13/leetcode-solutions/tree/master/0101-symmetric-tree) |
+| [0104-maximum-depth-of-binary-tree](https://github.com/akashl13/leetcode-solutions/tree/master/0104-maximum-depth-of-binary-tree) |
 | [1306-jump-game-iii](https://github.com/akashl13/leetcode-solutions/tree/master/1306-jump-game-iii) |
 ## Monotonic Stack
 |  |
@@ -440,6 +442,7 @@
 | [0099-recover-binary-search-tree](https://github.com/akashl13/leetcode-solutions/tree/master/0099-recover-binary-search-tree) |
 | [0100-same-tree](https://github.com/akashl13/leetcode-solutions/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/akashl13/leetcode-solutions/tree/master/0101-symmetric-tree) |
+| [0104-maximum-depth-of-binary-tree](https://github.com/akashl13/leetcode-solutions/tree/master/0104-maximum-depth-of-binary-tree) |
 | [3820-pythagorean-distance-nodes-in-a-tree](https://github.com/akashl13/leetcode-solutions/tree/master/3820-pythagorean-distance-nodes-in-a-tree) |
 ## Binary Search Tree
 |  |
@@ -457,6 +460,7 @@
 | [0099-recover-binary-search-tree](https://github.com/akashl13/leetcode-solutions/tree/master/0099-recover-binary-search-tree) |
 | [0100-same-tree](https://github.com/akashl13/leetcode-solutions/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/akashl13/leetcode-solutions/tree/master/0101-symmetric-tree) |
+| [0104-maximum-depth-of-binary-tree](https://github.com/akashl13/leetcode-solutions/tree/master/0104-maximum-depth-of-binary-tree) |
 ## Minimax
 |  |
 | ------- |
