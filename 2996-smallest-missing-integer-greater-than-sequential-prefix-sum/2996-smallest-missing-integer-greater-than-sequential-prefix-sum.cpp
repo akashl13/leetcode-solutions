@@ -1,13 +1,10 @@
-
 class Solution {
 public:
     int missingInteger(vector<int>& nums) {
-        int n = nums.size();
-
-        // Calculate the sum of the longest sequential prefix
         int sum = nums[0];
 
-        for (int i = 1; i < n; i++) {
+        // Find longest sequential prefix
+        for (int i = 1; i < nums.size(); i++) {
             if (nums[i] == nums[i - 1] + 1) {
                 sum += nums[i];
             } else {
@@ -15,10 +12,10 @@ public:
             }
         }
 
-        // Store all array elements for quick lookup
+        // Store all numbers present in nums
         unordered_set<int> st(nums.begin(), nums.end());
 
-        // Find the smallest missing integer >= sum
+        // Find smallest missing number >= sum
         while (st.count(sum)) {
             sum++;
         }
@@ -26,3 +23,7 @@ public:
         return sum;
     }
 };
+
+// Synced seamlessly with LeetHub Pro
+// Pro features: https://bit.ly/leethubpro | Free version: https://bit.ly/leethubv4
+// Get it here: https://chromewebstore.google.com/detail/bcilpkkbokcopmabingnndookdogmbna
