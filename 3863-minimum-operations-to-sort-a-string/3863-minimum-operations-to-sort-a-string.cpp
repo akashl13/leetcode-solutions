@@ -1,41 +1,48 @@
-
 class Solution {
 public:
     int minOperations(string s) {
         int n = s.size();
 
-        if (is_sorted(s.begin(), s.end()))
+        // Already sorted
+        bool sorted = true;
+
+        for (int i = 1; i < n; i++) {
+            if (s[i] < s[i - 1]) {
+                sorted = false;
+                break;
+            }
+        }
+
+        if (sorted)
             return 0;
 
+        // With only two characters, the only useful
+        // substring would be the whole string, which is forbidden.
         if (n == 2)
             return -1;
 
+        // Find minimum and maximum characters
         char mn = *min_element(s.begin(), s.end());
         char mx = *max_element(s.begin(), s.end());
 
-        // One operation is enough if either endpoint
-        // is already correctly positioned.
+        // If minimum is already at the beginning,
+        // or maximum is already at the end,
+        // one operation is enough.
         if (s[0] == mn || s[n - 1] == mx)
             return 1;
 
-        // Two operations are enough if the minimum
-        // occurs before the last position, or the
-        // maximum occurs after the first position.
-        for (int i = 0; i < n - 1; i++) {
-            if (s[i] == mn)
+        // If minimum or maximum exists somewhere in the middle,
+        // two operations are enough.
+        for (int i = 1; i < n - 1; i++) {
+            if (s[i] == mn || s[i] == mx)
                 return 2;
         }
 
-        for (int i = 1; i < n; i++) {
-            if (s[i] == mx)
-                return 2;
-        }
-
-        // Both extremes are trapped at opposite ends.
+        // Minimum is only at the end and maximum is only at
+        // the beginning, with no useful extreme in the middle.
         return 3;
     }
 };
-
 
 // Synced seamlessly with LeetHub Pro
 // Pro features: https://bit.ly/leethubpro | Free version: https://bit.ly/leethubv4
