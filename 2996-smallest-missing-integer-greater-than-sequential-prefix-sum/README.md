@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum">3236. Smallest Missing Integer Greater Than Sequential Prefix Sum</a></h2><h3>Easy</h3><hr><p><strong>Note: </strong>The updated title is <strong>&quot;Smallest Missing Integer Greater Than or Equal to Sequential Prefix Sum&quot;.</strong></p>
+<h2><a href="https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum">2996. Smallest Missing Integer Greater Than Sequential Prefix Sum</a></h2><h3>Easy</h3><hr><p><strong>Note: </strong>The updated title is <strong>&quot;Smallest Missing Integer Greater Than or Equal to Sequential Prefix Sum&quot;.</strong></p>
 
 <p>You are given a <strong>0-indexed</strong> array of integers <code>nums</code>.</p>
 
