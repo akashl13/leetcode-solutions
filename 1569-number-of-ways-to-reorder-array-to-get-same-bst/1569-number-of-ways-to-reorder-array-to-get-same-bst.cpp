@@ -1,46 +1,53 @@
 class Solution {
 public:
-    using ll = long long;
-    static const int MOD = 1e9 + 7;
+    static const long long MOD = 1000000007;
 
-    vector<vector<ll>> comb;
+    long long C[1001][1001];
 
-    ll solve(vector<int>& nums) {
+    long long solve(vector<int>& nums) {
         int n = nums.size();
 
-        if (n <= 2) return 1;
+        if (n <= 2)
+            return 1;
 
-        vector<int> left, right;
+        int root = nums[0];
+
+        vector<int> left;
+        vector<int> right;
 
         for (int i = 1; i < n; i++) {
-            if (nums[i] < nums[0])
+            if (nums[i] < root)
                 left.push_back(nums[i]);
             else
                 right.push_back(nums[i]);
         }
 
-        ll waysLeft = solve(left);
-        ll waysRight = solve(right);
+        // Number of ways to arrange left and right
+        // while keeping their internal order valid.
+        long long ways = C[n - 1][left.size()];
 
-        ll ways = comb[n - 1][left.size()];
-        ways = ways * waysLeft % MOD;
-        ways = ways * waysRight % MOD;
+        ways = ways * solve(left) % MOD;
+        ways = ways * solve(right) % MOD;
 
         return ways;
     }
 
     int numOfWays(vector<int>& nums) {
+
         int n = nums.size();
 
-        comb.assign(n + 1, vector<ll>(n + 1, 1));
+        // Precompute combinations C[n][r]
+        for (int i = 0; i <= n; i++) {
+            C[i][0] = C[i][i] = 1;
 
-        for (int i = 2; i <= n; i++) {
             for (int j = 1; j < i; j++) {
-                comb[i][j] = (comb[i - 1][j - 1] +
-                              comb[i - 1][j]) % MOD;
+                C[i][j] =
+                    (C[i - 1][j - 1] + C[i - 1][j]) % MOD;
             }
         }
 
+        // Original ordering itself is included,
+        // but the question asks for OTHER reorderings.
         return (solve(nums) - 1 + MOD) % MOD;
     }
 };
