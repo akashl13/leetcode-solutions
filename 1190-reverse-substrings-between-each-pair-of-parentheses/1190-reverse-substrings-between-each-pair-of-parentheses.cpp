@@ -2,25 +2,32 @@ class Solution {
 public:
     string reverseParentheses(string s) {
         stack<string> st;
-        string current = "";
+        string cur = "";
 
         for (char c : s) {
 
             if (c == '(') {
-                st.push(current);
-                current = "";
+                // Save the string before entering parentheses
+                st.push(cur);
+                cur = "";
             }
             else if (c == ')') {
-                reverse(current.begin(), current.end());
+                // Reverse the current substring
+                reverse(cur.begin(), cur.end());
 
-                current = st.top() + current;
+                // Add it to the string before '('
+                cur = st.top() + cur;
                 st.pop();
             }
             else {
-                current += c;
+                cur += c;
             }
         }
 
-        return current;
+        return cur;
     }
 };
+
+// Synced seamlessly with LeetHub Pro
+// Pro features: https://bit.ly/leethubpro | Free version: https://bit.ly/leethubv4
+// Get it here: https://chromewebstore.google.com/detail/bcilpkkbokcopmabingnndookdogmbna
