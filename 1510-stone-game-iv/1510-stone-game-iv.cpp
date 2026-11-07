@@ -4,8 +4,8 @@ public:
         vector<bool> dp(n + 1, false);
 
         for (int i = 1; i <= n; i++) {
-            for (int k = 1; k * k <= i; k++) {
-                if (!dp[i - k * k]) {
+            for (int j = 1; j * j <= i; j++) {
+                if (dp[i - j * j] == false) {
                     dp[i] = true;
                     break;
                 }
