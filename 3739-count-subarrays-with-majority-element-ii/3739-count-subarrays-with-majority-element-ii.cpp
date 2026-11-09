@@ -1,41 +1,57 @@
 class Solution {
 public:
+
+    void update(vector<int>& bit, int index) {
+        int n = bit.size();
+
+        while (index < n) {
+            bit[index]++;
+            index += index & (-index);
+        }
+    }
+
+    int query(vector<int>& bit, int index) {
+        int sum = 0;
+
+        while (index > 0) {
+            sum += bit[index];
+            index -= index & (-index);
+        }
+
+        return sum;
+    }
+
     long long countMajoritySubarrays(vector<int>& nums, int target) {
         int n = nums.size();
+
+        // Shift prefix sums so all Fenwick indices are positive
         int offset = n + 1;
 
-        vector<int> bit(2 * n + 5, 0);
+        vector<int> bit(2 * n + 3, 0);
 
-        auto update = [&](int i) {
-            while (i < (int)bit.size()) {
-                bit[i]++;
-                i += i & -i;
-            }
-        };
-
-        auto query = [&](int i) {
-            int sum = 0;
-            while (i > 0) {
-                sum += bit[i];
-                i -= i & -i;
-            }
-            return sum;
-        };
-
-        int prefix = 0;
         long long ans = 0;
+        int prefix = 0;
 
-        // Initial prefix sum is 0.
-        update(offset);
+        // Store initial prefix sum = 0
+        update(bit, prefix + offset);
 
         for (int x : nums) {
-            prefix += (x == target ? 1 : -1);
 
-            // Count previous prefix sums strictly smaller than current.
-            int idx = prefix + offset;
-            ans += query(idx - 1);
+            // Convert:
+            // target     -> +1
+            // non-target -> -1
+            if (x == target)
+                prefix++;
+            else
+                prefix--;
 
-            update(idx);
+            int index = prefix + offset;
+
+            // Count previous prefix sums smaller than current
+            ans += query(bit, index - 1);
+
+            // Store current prefix
+            update(bit, index);
         }
 
         return ans;
