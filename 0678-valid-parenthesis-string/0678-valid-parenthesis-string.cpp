@@ -14,20 +14,22 @@ public:
                 high--;
             }
             else { // '*'
-                // '*' can be '(' or ')' or empty
-                low--;
-                high++;
+                low--;      // '*' acts as ')'
+                high++;     // '*' acts as '('
             }
 
-            // Even the maximum possible balance is negative
+            // Even the maximum possible '(' count is negative
             if (high < 0)
                 return false;
 
-            // Balance cannot actually be negative
+            // low cannot be negative because '*' can be empty
             low = max(low, 0);
         }
 
-        // Valid if we can end with exactly 0 unmatched '('
         return low == 0;
     }
 };
+
+// Synced seamlessly with LeetHub Pro
+// Pro features: https://bit.ly/leethubpro | Free version: https://bit.ly/leethubv4
+// Get it here: https://chromewebstore.google.com/detail/bcilpkkbokcopmabingnndookdogmbna
