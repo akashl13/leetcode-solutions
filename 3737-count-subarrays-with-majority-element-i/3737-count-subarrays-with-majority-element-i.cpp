@@ -5,18 +5,17 @@ public:
         int ans = 0;
 
         for (int i = 0; i < n; i++) {
-            int count = 0;
+            int balance = 0;
 
             for (int j = i; j < n; j++) {
-                if (nums[j] == target) {
-                    count++;
-                }
+                if (nums[j] == target)
+                    balance++;
+                else
+                    balance--;
 
-                int len = j - i + 1;
-
-                if (count * 2 > len) {
+                // target appears more than half the time
+                if (balance > 0)
                     ans++;
-                }
             }
         }
 
