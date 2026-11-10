@@ -1,46 +1,49 @@
-
 class Solution {
 public:
     bool findSafeWalk(vector<vector<int>>& grid, int health) {
         int m = grid.size();
         int n = grid[0].size();
 
-        vector<vector<int>> dist(m, vector<int>(n, INT_MAX));
+        // best[i][j] = maximum health remaining when reaching (i, j)
+        vector<vector<int>> best(m, vector<int>(n, -1));
 
-        // Starting cell also consumes health if it contains 1
-        dist[0][0] = grid[0][0];
+        queue<pair<int, int>> q;
 
-        using T = tuple<int, int, int>;
-        priority_queue<T, vector<T>, greater<T>> pq;
+        int startHealth = health - grid[0][0];
 
-        pq.push({dist[0][0], 0, 0});
+        if (startHealth <= 0)
+            return false;
 
-        int dr[] = {-1, 1, 0, 0};
-        int dc[] = {0, 0, -1, 1};
+        best[0][0] = startHealth;
+        q.push({0, 0});
 
-        while (!pq.empty()) {
-            auto [cost, r, c] = pq.top();
-            pq.pop();
+        int dr[] = {1, -1, 0, 0};
+        int dc[] = {0, 0, 1, -1};
 
-            if (cost != dist[r][c])
-                continue;
+        while (!q.empty()) {
+            auto [r, c] = q.front();
+            q.pop();
 
-            if (r == m - 1 && c == n - 1) {
-                return cost < health;
-            }
+            if (r == m - 1 && c == n - 1)
+                return true;
 
-            for (int d = 0; d < 4; d++) {
-                int nr = r + dr[d];
-                int nc = c + dc[d];
+            for (int k = 0; k < 4; k++) {
+                int nr = r + dr[k];
+                int nc = c + dc[k];
 
                 if (nr < 0 || nr >= m || nc < 0 || nc >= n)
                     continue;
 
-                int newCost = cost + grid[nr][nc];
+                int newHealth = best[r][c] - grid[nr][nc];
 
-                if (newCost < dist[nr][nc]) {
-                    dist[nr][nc] = newCost;
-                    pq.push({newCost, nr, nc});
+                // We must always have health >= 1
+                if (newHealth <= 0)
+                    continue;
+
+                // Only visit if we reach this cell with more health
+                if (newHealth > best[nr][nc]) {
+                    best[nr][nc] = newHealth;
+                    q.push({nr, nc});
                 }
             }
         }
@@ -48,3 +51,7 @@ public:
         return false;
     }
 };
+
+// Synced seamlessly with LeetHub Pro
+// Pro features: https://bit.ly/leethubpro | Free version: https://bit.ly/leethubv4
+// Get it here: https://chromewebstore.google.com/detail/bcilpkkbokcopmabingnndookdogmbna
