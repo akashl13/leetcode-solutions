@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/number-of-zigzag-arrays-i">3962. Number of ZigZag Arrays I</a></h2><h3>Hard</h3><hr><p>You are given three integers <code>n</code>, <code>l</code>, and <code>r</code>.</p>
+<h2><a href="https://leetcode.com/problems/number-of-zigzag-arrays-i/?envType=daily-question&envId=2026-11-11">3699. Number of ZigZag Arrays I</a></h2><h3>Hard</h3><hr><p>You are given three integers <code>n</code>, <code>l</code>, and <code>r</code>.</p>
 
 <p>A <strong>ZigZag</strong> array of length <code>n</code> is defined as follows:</p>
 
