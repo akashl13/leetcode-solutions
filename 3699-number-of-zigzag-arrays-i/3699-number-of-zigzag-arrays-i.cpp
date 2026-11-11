@@ -1,49 +1,66 @@
-
 class Solution {
 public:
     int zigZagArrays(int n, int l, int r) {
-        const long long MOD = 1000000007;
+        const int MOD = 1e9 + 7;
         int m = r - l + 1;
 
-        // up[j]: arrays ending at j whose last step was increasing
-        // down[j]: arrays ending at j whose last step was decreasing
+        // up[x]   = sequences ending at x where last move was increasing
+        // down[x] = sequences ending at x where last move was decreasing
         vector<long long> up(m), down(m);
 
-        // Initialize arrays of length 2
-        for (int j = 0; j < m; j++) {
-            up[j] = j;
-            down[j] = m - 1 - j;
+        // For length 2
+        for (int x = 0; x < m; x++) {
+            // Previous value < x
+            up[x] = x;
+
+            // Previous value > x
+            down[x] = m - 1 - x;
         }
 
-        // Extend arrays to length n
+        // Build arrays of length 3 ... n
         for (int len = 3; len <= n; len++) {
-            vector<long long> nextUp(m, 0);
-            vector<long long> nextDown(m, 0);
+            vector<long long> newUp(m, 0);
+            vector<long long> newDown(m, 0);
 
-            // Increasing last step: previous value must be smaller
-            long long prefix = 0;
-            for (int j = 0; j < m; j++) {
-                nextUp[j] = prefix;
-                prefix = (prefix + down[j]) % MOD;
+            // Prefix sums
+            vector<long long> prefixUp(m + 1, 0);
+            vector<long long> prefixDown(m + 1, 0);
+
+            for (int i = 0; i < m; i++) {
+                prefixUp[i + 1] =
+                    (prefixUp[i] + up[i]) % MOD;
+
+                prefixDown[i + 1] =
+                    (prefixDown[i] + down[i]) % MOD;
             }
 
-            // Decreasing last step: previous value must be larger
-            long long suffix = 0;
-            for (int j = m - 1; j >= 0; j--) {
-                nextDown[j] = suffix;
-                suffix = (suffix + up[j]) % MOD;
+            for (int x = 0; x < m; x++) {
+                // Last move is increasing:
+                // previous value must be < x
+                // and before that the move must have been decreasing.
+                newUp[x] = prefixDown[x];
+
+                // Last move is decreasing:
+                // previous value must be > x
+                // and before that the move must have been increasing.
+                newDown[x] =
+                    (prefixUp[m] - prefixUp[x + 1] + MOD) % MOD;
             }
 
-            up = nextUp;
-            down = nextDown;
+            up = newUp;
+            down = newDown;
         }
 
         long long ans = 0;
 
-        for (int j = 0; j < m; j++) {
-            ans = (ans + up[j] + down[j]) % MOD;
+        for (int x = 0; x < m; x++) {
+            ans = (ans + up[x] + down[x]) % MOD;
         }
 
-        return (int)ans;
+        return ans;
     }
 };
+
+// Synced seamlessly with LeetHub Pro
+// Pro features: https://bit.ly/leethubpro | Free version: https://bit.ly/leethubv4
+// Get it here: https://chromewebstore.google.com/detail/bcilpkkbokcopmabingnndookdogmbna
