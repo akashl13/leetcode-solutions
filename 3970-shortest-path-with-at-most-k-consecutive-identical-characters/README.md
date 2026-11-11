@@ -1,8 +1,10 @@
-<h2><a href="https://leetcode.com/problems/shortest-path-with-at-most-k-consecutive-identical-characters">4104. Shortest Path With At Most K Consecutive Identical Characters</a></h2><h3>Medium</h3><hr><p>You are given an integer <code>n</code> representing the number of nodes in a <strong>directed weighted</strong> graph, numbered from 0 to <code>n - 1</code>. This is represented by a 2D integer array <code>edges</code>, where <code>edges[i] = [u<sub>i</sub>, v<sub>i</sub>, w<sub>i</sub>]</code> represents a directed edge from node <code>u<sub>i</sub></code> to node <code>v<sub>i</sub></code> with weight <code>w<sub>i</sub></code>.</p>
+<h2><a href="https://leetcode.com/problems/shortest-path-with-at-most-k-consecutive-identical-characters">3970. Shortest Path With At Most K Consecutive Identical Characters</a></h2><h3>Medium</h3><hr><p>You are given an integer <code>n</code> representing the number of nodes in a <strong>directed weighted</strong> graph, numbered from 0 to <code>n - 1</code>. This is represented by a 2D integer array <code>edges</code>, where <code>edges[i] = [u<sub>i</sub>, v<sub>i</sub>, w<sub>i</sub>]</code> represents a directed edge from node <code>u<sub>i</sub></code> to node <code>v<sub>i</sub></code> with weight <code>w<sub>i</sub></code>.</p>
 
 <p>You are also given a string <code>labels</code> of length <code>n</code>, where <code>labels[i]</code> is the character assigned to node <code>i</code>, and an integer <code>k</code>.</p>
 
 <p>Return the <strong>minimum</strong> <strong>total</strong> edge weight of a path from node 0 to node <code>n - 1</code> such that the concatenation of the labels of the nodes along the path contains <strong>at most</strong> <code>k</code> <strong>consecutive</strong> <strong>identical</strong> characters. If no valid path exists, return -1.</p>
+
+<p><strong>Note:</strong> Nodes and edges may be revisited.</p>
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
