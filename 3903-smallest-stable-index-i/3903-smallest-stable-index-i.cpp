@@ -3,11 +3,23 @@ public:
     int firstStableIndex(vector<int>& nums, int k) {
         int n = nums.size();
 
-        for (int i = 0; i < n; i++) {
-            int leftMax = *max_element(nums.begin(), nums.begin() + i + 1);
-            int rightMin = *min_element(nums.begin() + i, nums.end());
+        vector<long long> prefixMax(n);
+        vector<long long> suffixMin(n);
 
-            if (leftMax - rightMin <= k) {
+        prefixMax[0] = nums[0];
+
+        for (int i = 1; i < n; i++) {
+            prefixMax[i] = max(prefixMax[i - 1], (long long)nums[i]);
+        }
+
+        suffixMin[n - 1] = nums[n - 1];
+
+        for (int i = n - 2; i >= 0; i--) {
+            suffixMin[i] = min(suffixMin[i + 1], (long long)nums[i]);
+        }
+
+        for (int i = 0; i < n; i++) {
+            if (prefixMax[i] - suffixMin[i] <= k) {
                 return i;
             }
         }
@@ -15,3 +27,7 @@ public:
         return -1;
     }
 };
+
+// Synced seamlessly with LeetHub Pro
+// Pro features: https://bit.ly/leethubpro | Free version: https://bit.ly/leethubv4
+// Get it here: https://chromewebstore.google.com/detail/bcilpkkbokcopmabingnndookdogmbna
