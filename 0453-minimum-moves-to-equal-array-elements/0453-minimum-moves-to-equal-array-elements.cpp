@@ -1,18 +1,17 @@
-
 class Solution {
 public:
     int minMoves(vector<int>& nums) {
-        int minElement = *min_element(nums.begin(), nums.end());
-        int moves = 0;
-
-        for (int num : nums) {
-            moves += num - minElement;
+        int mn = *min_element(nums.begin(), nums.end());
+        
+        long long moves = 0;
+        
+        for (int x : nums) {
+            moves += x - mn;
         }
-
-        return moves;
+        
+        return (int)moves;
     }
 };
-
 
 // Synced seamlessly with LeetHub Pro
 // Pro features: https://bit.ly/leethubpro | Free version: https://bit.ly/leethubv4
